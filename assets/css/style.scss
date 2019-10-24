@@ -311,9 +311,9 @@ a:focus, a:hover {
       @extend .after-df;
       width: 75px;
       height: 5px;
-      background: -moz-linear-gradient(-270deg, #2b9bfd 0%, #7967fe 24.5%, #21a2fd 50%, #2b9bfd 51%, #7967fe 74.5%, #21a2fd 100%);
-      background: linear-gradient(-270deg, #2b9bfd 0%, #7967fe 24.5%, #21a2fd 50%, #2b9bfd 51%, #7967fe 74.5%, #21a2fd 100%);
-      background: -ms-linear-gradient(-270deg, #2b9bfd 0%, #7967fe 24.5%, #21a2fd 50%, #2b9bfd 51%, #7967fe 74.5%, #21a2fd 100%);
+      background: -moz-linear-gradient(-270deg, #0066b1 0%, #f37022 24.5%, #0cb14b 50%, #0066b1 51%, #f37022 74.5%, #f37022 100%);
+      background: linear-gradient(-270deg, #0066b1 0%, #f37022 24.5%, #0cb14b 50%, #0066b1 51%, #f37022 74.5%, #f37022 100%);
+      background: -ms-linear-gradient(-270deg, #0066b1 0%, #f37022 24.5%, #0cb14b 50%, #0066b1 51%, #f37022 74.5%, #f37022 100%);
       background-size: 200% auto;
     }
   }
