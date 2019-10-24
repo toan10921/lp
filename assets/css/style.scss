@@ -294,6 +294,47 @@ img {
 }
 
 /* custom css */
+
+.owl-carousel {
+  .owl-nav{
+    [class*=owl-]{
+      background: #333 !important;
+      background: #333 !important;
+    }
+    button{
+      width: 36px;
+      height: 36px;
+      display: inline-block;
+      opacity: 1;
+      padding: 0;
+      text-align: center;
+      margin: -18px 0 0 !important;
+      border-radius: 0px;
+      border: 1px solid #e1e1e1;
+      font-size: 14px;
+      position: absolute;
+      top: 50%;
+      z-index: 9;
+      color: #999;
+      background: #333;
+      transition: all 0.3s ease-out 0s;
+      -webkit-transition: all 0.3s ease-out 0s;
+      &.owl-prev{
+        left: 35px;
+      }
+      &.owl-next{
+        right: 35px;
+      }
+    }
+  }
+}
+
+.banner-slider{
+  .owl-dots{
+    display: none;
+  }
+}
+
 a:focus, a:hover {
   text-decoration: none;
 }
