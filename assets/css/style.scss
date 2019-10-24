@@ -1,0 +1,323 @@
+$color: #0066b1;
+$color-orange: #f36f21;
+$white: #fff;
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.after-df {
+  content: "";
+  display: block;
+  position: absolute;
+  @extend .transition;
+}
+
+.after-df-rlt {
+  content: "";
+  display: block;
+  position: relative;
+  @extend .transition;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.color {
+  color: $color;
+}
+
+.color-orange {
+  color: $color-orange;
+}
+
+.white {
+  color: $white;
+}
+
+.hvr-color:hover {
+  color: $color;
+}
+
+.hvr-white:hover {
+  color: $white;
+}
+
+.bg-color {
+  background-color: $color;
+}
+
+.hvr-bg-color:hover {
+  background-color: $color;
+}
+
+.border-color {
+  border-color: $color;
+}
+
+.radius0 {
+  border-radius: 0px;
+}
+
+.radius30 {
+  border-radius: 30px;
+}
+
+.font-900 {
+  font-weight: 900;
+}
+
+.font-300 {
+  font-weight: 300;
+}
+
+.font-400 {
+  font-weight: 400;
+}
+
+.font-500 {
+  font-weight: 500;
+}
+
+.font-600 {
+  font-weight: 600;
+}
+
+.font-normal {
+  font-weight: normal;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.title10 {
+  font-size: 10px;
+  line-height: normal;
+}
+
+.title14,
+.title8,
+.title12,
+.title16,
+.title18,
+.title24,
+.title30,
+.title36,
+.title40,
+.title48,
+.title60,
+.title90,
+.title120,
+.title160,
+.title100 {
+  font-size: 14px;
+  line-height: normal;
+}
+
+.title12 {
+  font-size: 12px;
+  line-height: normal;
+}
+
+.title13 {
+  font-size: 13px;
+  line-height: normal;
+}
+
+.title16 {
+  font-size: 16px;
+}
+
+.title18 {
+  font-size: 18px;
+  line-height: normal;
+}
+
+.title20 {
+  font-size: 20px;
+  line-height: normal;
+}
+
+.title24 {
+  font-size: 24px;
+  line-height: normal;
+}
+
+.title30 {
+  font-size: 30px;
+  line-height: normal;
+}
+
+.title36 {
+  font-size: 36px;
+  line-height: normal;
+}
+
+.title40 {
+  font-size: 40px;
+  line-height: normal;
+}
+
+.title45 {
+  font-size: 45px;
+  line-height: normal;
+}
+
+.title47 {
+  font-size: 47px;
+  line-height: normal;
+}
+
+.title48 {
+  font-size: 48px;
+  line-height: normal;
+}
+
+.title50 {
+  font-size: 50px;
+  line-height: normal;
+}
+
+.title60 {
+  font-size: 60px;
+  line-height: normal;
+}
+
+.title70 {
+  font-size: 70px;
+  line-height: normal;
+}
+
+.transition {
+  transition: all 0.3s ease-out 0s;
+  -webkit-transition: all 0.3s ease-out 0s;
+}
+
+.flex-wrap {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+}
+
+.inline-flex-wrap {
+  display: inline-flex;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+}
+
+.flex-wrap {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -o-flex;
+}
+
+.flex-wrap-wrap {
+  flex-wrap: wrap;
+}
+
+.align-items-center {
+  align-items: center;
+  -ms-align-items: center;
+  -webkit-align-items: center;
+}
+
+.jtf-content-end {
+  justify-content: flex-end;
+  -ms-justify-content: flex-end;
+  -webkit-justify-content: flex-end;
+}
+
+.jtf-content-space-between {
+  justify-content: space-between;
+}
+
+.jtf-content-center {
+  justify-content: center;
+}
+
+.bg-overlay {
+  @extend .after-df;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+
+.no-margin {
+  margin: 0px;
+}
+
+.pst-relative {
+  position: relative;
+}
+
+.pst-absolute {
+  position: absolute;
+}
+
+.bg-parallax {
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.list-none {
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.fontosw {
+  font-family: Oswald;
+}
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+/* custom css */
+a:focus, a:hover {
+  text-decoration: none;
+}
+
+.btn-dk {
+  height: 40px;
+  line-height: 40px;
+  padding: 0px 25px;
+  margin: auto;
+}
+
+.title-box-wrap {
+  .title-box{
+    &:after{
+      @extend .after-df;
+      width: 75px;
+      height: 5px;
+      background: -moz-linear-gradient(-270deg, #2b9bfd 0%, #7967fe 24.5%, #21a2fd 50%, #2b9bfd 51%, #7967fe 74.5%, #21a2fd 100%);
+      background: linear-gradient(-270deg, #2b9bfd 0%, #7967fe 24.5%, #21a2fd 50%, #2b9bfd 51%, #7967fe 74.5%, #21a2fd 100%);
+      background: -ms-linear-gradient(-270deg, #2b9bfd 0%, #7967fe 24.5%, #21a2fd 50%, #2b9bfd 51%, #7967fe 74.5%, #21a2fd 100%);
+      background-size: 200% auto;
+    }
+  }
+  .title-desc{
+
+  }
+}
