@@ -295,6 +295,15 @@ img {
 
 /* custom css */
 
+.logo{
+  padding-top: 4px;
+  padding-bottom: 6px;
+  a{
+    display: block;
+    margin-right: -25px;
+  }
+}
+
 .owl-carousel {
   .owl-nav{
     [class*=owl-]{
@@ -330,6 +339,9 @@ img {
 }
 
 .banner-slider{
+  .banner-item{
+    background-size: cover;
+  }
   .owl-dots{
     display: none;
   }

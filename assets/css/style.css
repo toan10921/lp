@@ -229,6 +229,13 @@ img {
   width: 100%; }
 
 /* custom css */
+.logo {
+  padding-top: 4px;
+  padding-bottom: 6px; }
+  .logo a {
+    display: block;
+    margin-right: -25px; }
+
 .owl-carousel .owl-nav [class*=owl-] {
   background: #333 !important;
   background: #333 !important; }
@@ -255,6 +262,8 @@ img {
   .owl-carousel .owl-nav button.owl-next {
     right: 35px; }
 
+.banner-slider .banner-item {
+  background-size: cover; }
 .banner-slider .owl-dots {
   display: none; }
 
