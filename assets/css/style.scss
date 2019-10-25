@@ -54,6 +54,10 @@ $white: #fff;
   background-color: $color;
 }
 
+.bg-color-orange{
+  background: $color-orange;
+}
+
 .hvr-bg-color:hover {
   background-color: $color;
 }
@@ -64,6 +68,10 @@ $white: #fff;
 
 .radius0 {
   border-radius: 0px;
+}
+
+.radius5{
+  border-radius: 5px;
 }
 
 .radius30 {
@@ -298,23 +306,71 @@ img {
 }
 
 /* custom css */
+.header{
+
+}
+.header-row-wrapper{
+  width: 100% !important;
+  max-width: 100% !important;
+  padding-left: 30px;
+  padding-right: 30px;
+  .col-menu{
+    padding-top: 30px;
+  }
+  .col-register{
+    padding-top: 20px;
+    .btn-dk{
+      padding-left: 25px;
+      padding-right: 25px;
+      box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+    }
+  }
+}
+
+.address-contact-wrap{
+  padding-top: 11.5px;
+  padding-bottom: 11.5px;
+  margin: 0px -15px;
+  a{
+    @extend .flex-wrap;
+    @extend .flex-wrap-wrap;
+    @extend .align-items-center;
+    margin: 0px 15px;
+    i{
+      width: 16px;
+      height: 16px;
+      background: $white;
+      color:  $color-orange;
+      @extend .pst-relative;
+      @extend .round;
+      margin-right: 5px;
+      margin-top: -1px;
+      &:before{
+        top: 3px;
+        left: 4px;
+        position: absolute;
+        font-size: 12px;
+      }
+    }
+  }
+}
 
 a:focus, a:hover{
   color: $color-orange;
 }
 
 .logo{
-  padding-top: 3px;
-  padding-bottom: 7px;
+  padding-top: 13px;
+  padding-bottom: 17px;
   a{
     display: block;
-    margin-right: -25px;
+    max-width: 280px;
   }
 }
 .main-nav{
   ul{
     li{
-      margin: 0px 10px;
+      margin: 0px 15px;
       a{
         display: inline-block;
       }
@@ -364,7 +420,9 @@ a:focus, a:hover{
     display: none;
   }
 }
-
+a{
+  @extend .transition;
+}
 a:focus, a:hover {
   text-decoration: none;
 }
@@ -372,8 +430,9 @@ a:focus, a:hover {
 .btn-dk {
   height: 40px;
   line-height: 40px;
-  padding: 0px 25px;
+  padding: 0px 50px;
   margin: auto;
+  @extend .radius30;
 }
 
 .title-box-wrap {
@@ -427,6 +486,10 @@ a:focus, a:hover {
   opacity: 0;
 }
 
+.overflow-hidden{
+  overflow: hidden;
+}
+
 .wcs-wrap{
   margin-left: -7.5px;
   margin-right: -7.5px;
@@ -437,12 +500,103 @@ a:focus, a:hover {
 
 .wcs-item{
   margin-bottom: 30px;
-  border: 1px solid #d2d2d2;
-  padding: 10px;
+  @extend .pst-relative;
+  //border: 1px solid $color;
+  //padding: 10px;
   .img-wrap{
     margin-bottom: 15px;
+    img{
+      @extend .transition;
+    }
   }
   h3{
-
+    margin-bottom: 12px;
+  }
+  .wcs-short-desc{
+    margin-bottom: 15px;
+    text-align: justify;
+  }
+  .wcs-desc{
+    @extend .pst-absolute;
+    @extend .transition;
+    right: calc(-100% - 15px);
+    left: calc(100% + 15px);
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #0066b1;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
+    ul{
+      li{
+        @extend .pst-relative;
+        text-indent: 20px;
+        padding-bottom: 10px;
+        margin-bottom: 13px;
+        border-bottom: 1px solid $color;
+        font-weight: 500;
+        .chance-desc{
+          margin-bottom: 13px;
+        }
+        .list-chance{
+          span{
+            display: block;
+            text-indent: 0px;
+            @extend .pst-relative;
+            padding-left: 10px;
+            margin-bottom: 10px;
+            margin-bottom: 10px;
+            &:before{
+              @extend .after-df;
+              font-family: FontAwesome;
+              color: $color-orange;
+              content:"\f0da";
+              left: 0px;
+              top: 0px;
+            }
+          }
+        }
+        &:before{
+          @extend .after-df;
+          font-family: FontAwesome;
+          content:"\f178";
+          top: -1px;
+          text-indent: 0px;
+          color: $color-orange;
+        }
+        &:last-child{
+          border: none;
+        }
+      }
+    }
+  }
+  .star-box{
+    margin-bottom: 4px;
+    .star-rating{
+      width: 60px;
+      height: 9px;
+      overflow: hidden;
+      background: url("../images/rate-star.png");
+      background-repeat: repeat-x;
+      margin-top: 5px;
+    }
+  }
+  &.last-item{
+    .wcs-desc{
+      left: calc(-100% - 15px);
+      right: calc(100% + 15px);
+    }
+  }
+  &:hover{
+    .wcs-desc{
+      visibility: visible;
+      opacity: 1;
+    }
   }
 }
