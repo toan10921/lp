@@ -4,9 +4,13 @@ $white: #fff;
 
 .container {
   max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
 }
+@media (min-width: 1200px){
+  .container {
+    width: 1200px;
+  }
+}
+
 
 .after-df {
   content: "";
@@ -295,12 +299,26 @@ img {
 
 /* custom css */
 
+a:focus, a:hover{
+  color: $color-orange;
+}
+
 .logo{
-  padding-top: 4px;
-  padding-bottom: 6px;
+  padding-top: 3px;
+  padding-bottom: 7px;
   a{
     display: block;
     margin-right: -25px;
+  }
+}
+.main-nav{
+  ul{
+    li{
+      margin: 0px 10px;
+      a{
+        display: inline-block;
+      }
+    }
   }
 }
 
@@ -360,22 +378,70 @@ a:focus, a:hover {
 
 .title-box-wrap {
   .title-box{
+    padding-bottom: 26px;
+    margin-bottom: 24px;
     &:after{
       @extend .after-df;
-      width: 75px;
+      width: 60px;
+      width: 60px;
       height: 5px;
-      background: -moz-linear-gradient(-270deg, #0066b1 0%, #f37022 24.5%, #0cb14b 50%, #0066b1 51%, #f37022 74.5%, #f37022 100%);
-      background: linear-gradient(-270deg, #0066b1 0%, #f37022 24.5%, #0cb14b 50%, #0066b1 51%, #f37022 74.5%, #f37022 100%);
-      background: -ms-linear-gradient(-270deg, #0066b1 0%, #f37022 24.5%, #0cb14b 50%, #0066b1 51%, #f37022 74.5%, #f37022 100%);
+      background-image: -moz-linear-gradient(to right, #0066b1 0%, #0cb14b 51%, #0066b1 100%);
+      background-image: linear-gradient(to right, #0066b1 0%, #0cb14b 51%, #0066b1 100%);
+      background-image: -webkit-linear-gradient(to right, #0066b1 0%, #0cb14b 51%, #0066b1 100%);
+      background-image: -ms-linear-gradient(to right, #0066b1 0%, #0cb14b 51%, #0066b1 100%);
       background-size: 200% auto;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      margin: auto;
     }
   }
   .title-desc{
-
+    max-width: 750px;
+    margin: auto;
+    margin-bottom: 20px;
+    &:before{
+      @extend .after-df;
+      font-family: FontAwesome;
+      content:"\f10d";
+      font-size: 22px;
+      color: $color-orange;
+      left: -30px;
+      top: 0px;
+    }
+    &:after{
+      @extend .after-df;
+      font-family: FontAwesome;
+      content:"\f10e";
+      font-size: 22px;
+      top: 0px;
+      color: $color-orange;
+      right: -30px;
+    }
   }
 }
 
 .visible-hidden{
   visibility: hidden;
   opacity: 0;
+}
+
+.wcs-wrap{
+  margin-left: -7.5px;
+  margin-right: -7.5px;
+  > div{
+    padding: 0px 7.5px;
+  }
+}
+
+.wcs-item{
+  margin-bottom: 30px;
+  border: 1px solid #d2d2d2;
+  padding: 10px;
+  .img-wrap{
+    margin-bottom: 15px;
+  }
+  h3{
+
+  }
 }
