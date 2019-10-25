@@ -300,7 +300,8 @@ a:focus, a:hover {
     left: 0px;
     right: 0px;
     bottom: 0px;
-    margin: auto; }
+    margin: auto;
+    transform: skewX(-45deg); }
 .title-box-wrap .title-desc {
   max-width: 750px;
   margin: auto;
