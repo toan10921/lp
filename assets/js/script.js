@@ -39,8 +39,20 @@ $(document).ready(function () {
         $(".js_thu-vien-anh-slider").each(function (){
             $(this).owlCarousel({
                 items: 3,
-                dots: true,
-                // autoWidth: true,
+                dots: false,
+                stagePadding: 50,
+                loop: true,
+                animateIn: "slideInLeft",
+                animateOut: "slideOutLeft"
+            });
+        });
+    }
+
+    if($(".js_thu-vien-anh-slider2").length > 0){
+        $(".js_thu-vien-anh-slider2").each(function (){
+            $(this).owlCarousel({
+                items: 3,
+                dots: false,
                 loop: true,
                 animateIn: "slideInLeft",
                 animateOut: "slideOutLeft"
@@ -51,37 +63,9 @@ $(document).ready(function () {
 });
 
 $(window).on("load",function () {
-    // check minheight
 
-    // if($(".js_sinhvien-slider .sinhvien-item").length > 0){
-    //     var temp_height = 0;
-    //     $('.js_sinhvien-slider .sinhvien-item').each(function () {
-    //
-    //         var height_content = $(this)["0"].clientHeight;
-    //         if(height_content > temp_height){
-    //             temp_height = height_content;
-    //         }
-    //     });
-    //     $('.js_sinhvien-slider .sinhvien-item').each(function () {
-    //         $(this).css('height',temp_height);
-    //     });
-    // }
 });
 
 $(window).on("resize",function () {
-    // check minheight
-    //
-    // if($(".js_sinhvien-slider .sinhvien-item").length > 0){
-    //     var temp_height = 0;
-    //     $('.js_sinhvien-slider .sinhvien-item').each(function () {
-    //
-    //         var height_content = $(this)["0"].clientHeight;
-    //         if(height_content > temp_height){
-    //             temp_height = height_content;
-    //         }
-    //     });
-    //     $('.js_sinhvien-slider .sinhvien-item').each(function () {
-    //         $(this).css('height',temp_height);
-    //     });
-    // }
+
 });

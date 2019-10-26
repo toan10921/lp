@@ -936,8 +936,9 @@ a:focus, a:hover {
   }
 }
 
-.js_thu-vien-anh-slider{
+.thu-vien-anh-slider{
   .owl-item{
+    padding: 0px 7.5px;
     .thu-vien-anh-item{
       a{
         display: block;
@@ -947,4 +948,9 @@ a:focus, a:hover {
       }
     }
   }
+}
+
+.thu-vien-anh-slider2-wrap{
+  margin: 0px -7.5px;
+  margin-top: 15px;
 }
