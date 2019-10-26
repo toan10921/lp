@@ -647,4 +647,8 @@ a:focus, a:hover {
     .data-item .data-item-inner i {
       margin-bottom: 5px; }
 
+.data-wrap .col-thongke .title-box:before {
+  background: url("../images/title-after-icon-bg-orange.jpg");
+  background-size: contain; }
+
 /*# sourceMappingURL=style.css.map */

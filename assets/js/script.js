@@ -33,9 +33,9 @@ $(document).ready(function () {
                 animateOut: "slideOutLeft"
             });
         });
-
-
     }
+
+
 });
 
 $(window).on("load",function () {

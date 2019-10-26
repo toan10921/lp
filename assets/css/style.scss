@@ -921,3 +921,18 @@ a:focus, a:hover {
     }
   }
 }
+
+.data-wrap{
+  .col-gioithieu{
+
+  }
+  .col-thongke{
+    .title-box{
+      &:before{
+        background: url("../images/title-after-icon-bg-orange.jpg");
+        background-size: contain;
+      }
+    }
+  }
+}
+
