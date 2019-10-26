@@ -936,3 +936,15 @@ a:focus, a:hover {
   }
 }
 
+.js_thu-vien-anh-slider{
+  .owl-item{
+    .thu-vien-anh-item{
+      a{
+        display: block;
+        img{
+          //width: auto;
+        }
+      }
+    }
+  }
+}

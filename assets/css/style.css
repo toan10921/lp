@@ -651,4 +651,7 @@ a:focus, a:hover {
   background: url("../images/title-after-icon-bg-orange.jpg");
   background-size: contain; }
 
+.js_thu-vien-anh-slider .owl-item .thu-vien-anh-item a {
+  display: block; }
+
 /*# sourceMappingURL=style.css.map */

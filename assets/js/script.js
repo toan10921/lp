@@ -35,6 +35,18 @@ $(document).ready(function () {
         });
     }
 
+    if($(".js_thu-vien-anh-slider").length > 0){
+        $(".js_thu-vien-anh-slider").each(function (){
+            $(this).owlCarousel({
+                items: 3,
+                dots: true,
+                // autoWidth: true,
+                loop: true,
+                animateIn: "slideInLeft",
+                animateOut: "slideOutLeft"
+            });
+        });
+    }
 
 });
 
