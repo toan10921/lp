@@ -19,6 +19,8 @@
     <!-- Bootstrap libs -->
     <link rel="stylesheet" href="assets/css/lib/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/lib/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
 
     <!-- Owl libs -->
     <link rel="stylesheet" href="assets/css/lib/owl.carousel.min.css">
@@ -26,13 +28,18 @@
     <link rel="stylesheet" href="assets/css/lib/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/lib/animations.min.css">
     <link rel="stylesheet" href="assets/css/lib/hover.min.css">
+    <link rel="stylesheet" href="assets/css/lib/jquery.fancybox.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/tu.css">
     <!-- js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="assets/js/lib/jquery-3.2.1.min.js"></script>
     <script src="assets/js/lib/bootstrap.min.js"></script>
     <script src="assets/js/lib/owl.carousel.min.js"></script>
+    <script src="assets/js/lib/jquery.fancybox.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/tu.js"></script>
 </head>
 <body>
 <section class="header" id="header">
@@ -514,44 +521,196 @@
                 <div class="col-sm-9">
                     <div class="tab-content">
                         <div id="CNTT" class="tab-pane fade in active">
-                            <div class=""><p>Cơ hội nghề ngiệp
-                                <p></div>
-                            <div class=""><p>Lợi thế đào tạo
-                                <p></div>
-                            <div class=""><p>Điều kiện nhập học
-                                <p></div>
-                            <div class=""><p>Cơ hội nghề ngiệp
-                                <p></div>
+                            <div class="panel-group" id="accordion">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#CHNN">Cơ hội nghề nghiệp</a>
+                                    </div>
+                                    <div id="CHNN" class="panel-collapse collapse in">
+                                        <div class="panel-body">Cơ hội việc làm rộng mở sau khi tốt nghiệp</div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#LTDT">Lợi thế đào tạo</a>
+                                    </div>
+                                    <div id="LTDT" class="panel-collapse collapse">
+                                        <div class="panel-body">Cơ hội học tập tại nước ngoài</div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#DKNH">Điều kiện nhập học</a>
+                                    </div>
+                                    <div id="DKNH" class="panel-collapse collapse">
+                                        <div class="panel-body">Tốt nghiệp THPT hoặc tương đương
+                                            <br>
+                                            Chuyển đổi tín chỉ từ các trường Đại học, Cao đẳng khác
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#CTH">Chương trình học</a>
+                                    </div>
+                                    <div id="CTH" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <ul class="job-target">
+                                                <li>Kỹ sư Thiết kế phần mềm</li>
+                                                <li>Kỹ sư Thiết kế và quản trị Cơ Sở Dữ Liệu</li>
+                                                <li>Chuyên viên Quản trị dự án</li>
+                                                <li>Chuyên viên Quản trị chất lượng phần mềm</li>
+                                                <li>Kỹ sư Triển khai giải pháp phần mềm</li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div id="TKDH1" class="tab-pane fade">
-                            <div class=""><p>Cơ hội nghề ngiệp 1
-                                <p></div>
-                            <div class=""><p>Lợi thế đào tạo 1
-                                <p></div>
-                            <div class=""><p>Điều kiện nhập học 1
-                                <p></div>
-                            <div class=""><p>Cơ hội nghề ngiệp 1
-                                <p></div>
+                            <div class="panel-group" id="accordion1">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion1" href="#CHNN1">Cơ hội nghề nghiệp 1</a>
+                                    </div>
+                                    <div id="CHNN1" class="panel-collapse collapse in">
+                                        <div class="panel-body">Cơ hội việc làm rộng mở sau khi tốt nghiệp</div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion1" href="#LTDT1">Lợi thế đào tạo 1</a>
+                                    </div>
+                                    <div id="LTDT1" class="panel-collapse collapse">
+                                        <div class="panel-body">Cơ hội học tập tại nước ngoài</div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion1" href="#DKNH1">Điều kiện nhập học 1</a>
+                                    </div>
+                                    <div id="DKNH1" class="panel-collapse collapse">
+                                        <div class="panel-body">Tốt nghiệp THPT hoặc tương đương
+                                            <br>
+                                            Chuyển đổi tín chỉ từ các trường Đại học, Cao đẳng khác
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion1" href="#CTH1">Chương trình học 1</a>
+                                    </div>
+                                    <div id="CTH1" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <ul class="job-target">
+                                                <li>Kỹ sư Thiết kế phần mềm</li>
+                                                <li>Kỹ sư Thiết kế và quản trị Cơ Sở Dữ Liệu</li>
+                                                <li>Chuyên viên Quản trị dự án</li>
+                                                <li>Chuyên viên Quản trị chất lượng phần mềm</li>
+                                                <li>Kỹ sư Triển khai giải pháp phần mềm</li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div id="TKDH2" class="tab-pane fade">
-                            <div class=""><p>Cơ hội nghề ngiệp 2
-                                <p></div>
-                            <div class=""><p>Lợi thế đào tạo 2
-                                <p></div>
-                            <div class=""><p>Điều kiện nhập học 2
-                                <p></div>
-                            <div class=""><p>Cơ hội nghề ngiệp 2
-                                <p></div>
+                            <div class="panel-group" id="accordion2">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#CHNN2">Cơ hội nghề nghiệp 2</a>
+                                    </div>
+                                    <div id="CHNN2" class="panel-collapse collapse in">
+                                        <div class="panel-body">Cơ hội việc làm rộng mở sau khi tốt nghiệp</div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#LTDT2">Lợi thế đào tạo 2</a>
+                                    </div>
+                                    <div id="LTDT2" class="panel-collapse collapse">
+                                        <div class="panel-body">Cơ hội học tập tại nước ngoài</div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#DKNH2">Điều kiện nhập học 2</a>
+                                    </div>
+                                    <div id="DKNH2" class="panel-collapse collapse">
+                                        <div class="panel-body">Tốt nghiệp THPT hoặc tương đương
+                                            <br>
+                                            Chuyển đổi tín chỉ từ các trường Đại học, Cao đẳng khác
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#CTH2">Chương trình học 2</a>
+                                    </div>
+                                    <div id="CTH2" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <ul class="job-target">
+                                                <li>Kỹ sư Thiết kế phần mềm</li>
+                                                <li>Kỹ sư Thiết kế và quản trị Cơ Sở Dữ Liệu</li>
+                                                <li>Chuyên viên Quản trị dự án</li>
+                                                <li>Chuyên viên Quản trị chất lượng phần mềm</li>
+                                                <li>Kỹ sư Triển khai giải pháp phần mềm</li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div id="TKDH3" class="tab-pane fade">
-                            <div class=""><p>Cơ hội nghề ngiệp 3
-                                <p></div>
-                            <div class=""><p>Lợi thế đào tạo 3
-                                <p></div>
-                            <div class=""><p>Điều kiện nhập học 3
-                                <p></div>
-                            <div class=""><p>Cơ hội nghề ngiệp 3
-                                <p></div>
+                            <div class="panel-group" id="accordion3">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion3" href="#CHNN3">Cơ hội nghề nghiệp 3</a>
+                                    </div>
+                                    <div id="CHNN3" class="panel-collapse collapse in">
+                                        <div class="panel-body">Cơ hội việc làm rộng mở sau khi tốt nghiệp</div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion3" href="#LTDT3">Lợi thế đào tạo 3</a>
+                                    </div>
+                                    <div id="LTDT3" class="panel-collapse collapse">
+                                        <div class="panel-body">Cơ hội học tập tại nước ngoài</div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion3" href="#DKNH3">Điều kiện nhập học 3</a>
+                                    </div>
+                                    <div id="DKNH3" class="panel-collapse collapse">
+                                        <div class="panel-body">Tốt nghiệp THPT hoặc tương đương
+                                            <br>
+                                            Chuyển đổi tín chỉ từ các trường Đại học, Cao đẳng khác
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion3" href="#CTH3">Chương trình học 3</a>
+                                    </div>
+                                    <div id="CTH3" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <ul class="job-target">
+                                                <li>Kỹ sư Thiết kế phần mềm</li>
+                                                <li>Kỹ sư Thiết kế và quản trị Cơ Sở Dữ Liệu</li>
+                                                <li>Chuyên viên Quản trị dự án</li>
+                                                <li>Chuyên viên Quản trị chất lượng phần mềm</li>
+                                                <li>Kỹ sư Triển khai giải pháp phần mềm</li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -789,6 +948,52 @@
         </div>
     </div>
     <!-- Famous people -->
+
+    <!-- Đối tác -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="js_doitac-slider doitac-slider owl-carousel owl-theme owl-loaded owl-drag">
+                    <div class="item-doitac">
+                        <div class="img-wrap overflow-hidden clearfix">
+                            <img class="hvr-grow" src="assets/images/doi-tac/logo-fpt.jpg" />
+                        </div>
+                    </div>
+                    <div class="item-doitac">
+                        <div class="img-wrap overflow-hidden clearfix">
+                            <img class="hvr-grow" src="assets/images/doi-tac/logo-fpt.jpg" />
+                        </div>
+                    </div>
+                    <div class="item-doitac">
+                        <div class="img-wrap overflow-hidden clearfix">
+                            <img class="hvr-grow" src="assets/images/doi-tac/logo-fpt.jpg" />
+                        </div>
+                    </div>
+                    <div class="item-doitac">
+                        <div class="img-wrap overflow-hidden clearfix">
+                            <img class="hvr-grow" src="assets/images/doi-tac/logo-fpt.jpg" />
+                        </div>
+                    </div>
+                    <div class="item-doitac">
+                        <div class="img-wrap overflow-hidden clearfix">
+                            <img class="hvr-grow" src="assets/images/doi-tac/logo-fpt.jpg" />
+                        </div>
+                    </div>
+                    <div class="item-doitac">
+                        <div class="img-wrap overflow-hidden clearfix">
+                            <img class="hvr-grow" src="assets/images/doi-tac/logo-fpt.jpg" />
+                        </div>
+                    </div>
+                    <div class="item-doitac">
+                        <div class="img-wrap overflow-hidden clearfix">
+                            <img class="hvr-grow" src="assets/images/doi-tac/logo-fpt.jpg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </section>
 <section class="footer">
     <div class="container">
@@ -881,9 +1086,16 @@
                 <div class="text-uppercase font-bold">
                     <h3>Bản đồ</h3>
                 </div>
+                <div class="thu-vien-anh-slider2-wrap">
+                    <div class="thu-vien-anh-slider  owl-carousel owl-theme owl-loaded owl-drag">
+                        <div class="thu-vien-anh-item radius5 overflow-hidden">
+                            <a href="https://www.google.com/maps/place/Detech+Tower+Building/@21.028752,105.7795148,17z/data=!4m5!3m4!1s0x0:0x6fdddfac0aef54d0!8m2!3d21.0287521!4d105.7817034" data-fancybox data-caption="" ><img src="assets/images/maps.png" /></a>
+                        </div>
+                    </div>
+                </div>
                 <div>
-                    <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2633.3335003710213!2d105.77997046429667!3d21.028846451127094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454b32bdf2c3b%3A0x6fdddfac0aef54d0!2sDetech%20Tower%20Building!5e0!3m2!1sen!2s!4v1571921041762!5m2!1sen!2s"-->
-                    <!--width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>-->
+                    <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2633.3335003710213!2d105.77997046429667!3d21.028846451127094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454b32bdf2c3b%3A0x6fdddfac0aef54d0!2sDetech%20Tower%20Building!5e0!3m2!1sen!2s!4v1571921041762!5m2!1sen!2s"
+                    width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>-->
                 </div>
             </div>
         </div>
