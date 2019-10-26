@@ -3,3 +3,45 @@
     min-height: 120px;
   }
 }
+.famous-people-wrap{
+  .famous-img-1{
+    background: url("../images/Famous people/bich_phuong.jpg");
+  }
+  .famous-img-2{
+    background: url("../images/Famous people/thuy_chi.jpg");
+  }
+  .famous-img-3{
+    background: url("../images/Famous people/hari.jpg");
+  }
+  .famous-img-4{
+    background: url("../images/Famous people/huavivan1_diua.jpg");
+  }
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    border: solid 2px #dbac69;
+  }
+  .tab-content{
+    border: dashed thin #dbac69;
+    border-radius: 15px;
+    padding: 15px;
+    height: 280px;
+  }
+  .infor-famous{
+    .tab-img{
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background-position: center;
+      background-position: top;
+      background-size: cover !important;
+      margin: auto;
+      margin-bottom: 10px;
+      border: solid 2px #dbac69;
+    }
+  }
+}
+.mySlides {
+  display: none;
+}
