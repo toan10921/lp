@@ -2,6 +2,7 @@ $color: #0066b1;
 $color-orange: #f36f21;
 $color-green: #0cb14b;
 $white: #fff;
+$grayd2: #d2d2d2;
 
 .container {
   max-width: 1200px;
@@ -33,6 +34,10 @@ $white: #fff;
 
 .color {
   color: $color;
+}
+
+.grayd2{
+  color: $grayd2;
 }
 
 .color-orange {
@@ -81,6 +86,10 @@ $white: #fff;
 
 .radius5 {
   border-radius: 5px;
+}
+
+.radius15{
+  border-radius: 15px;
 }
 
 .radius30 {
@@ -1008,6 +1017,7 @@ a:focus, a:hover {
     height: 280px;
     background: $white;
     margin-bottom: 15px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
   }
   .infor-famous{
     .nav-tabs{
@@ -1075,11 +1085,17 @@ a:focus, a:hover {
   padding-top: 60px;
   padding-bottom: 60px;
   .famous-people-outer{
-    //max-width: 1020px;
-    //margin: auto;
+    max-width: 870px;
+    margin: auto;
+    margin-bottom: 15px;
     .img-famous{
       width: calc(40% - 15px);
       border-radius: 15px;
+      padding: 10px;
+      background: $white;
+      img{
+        border-radius: 10px;
+      }
     }
     .infor-famous{
       width: 60%;
@@ -1088,8 +1104,58 @@ a:focus, a:hover {
 }
 
 .col-youtube-inner{
-  margin-left: -15px;
+  max-width: 885px;
+  margin: auto;
+  //margin-left: -15px;
 }
+
+.thu-vien-youtube-slider{
+  .owl-stage-outer{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    .owl-item{
+      padding: 0px 7.5px;
+      .thu-vien-youtube-item{
+        padding: 10px;
+        background: $white;
+        a{
+          border-radius: 10px;
+          @extend .overflow-hidden;
+          display: block;
+          @extend .pst-relative;
+          &:before{
+            @extend .after-df;
+            @extend .bg-overlay;
+            @extend .visible-hidden;
+            background: rgba(255,255,255,0.1);
+          }
+          &:after{
+            @extend .after-df;
+            @extend .bg-overlay;
+            margin: auto;
+            font-family: FontAwesome;
+            content:"\f144";
+            font-size: 30px;
+            @extend .white;
+            width: 26px;
+            height: 42px;
+          }
+          &:hover{
+            &:before{
+              visibility: visible;
+              opacity: 1;
+            }
+            &:after{
+              color: $color-orange;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
 .doitac-slider-wrap{
   padding-top: 30px;
   padding-bottom: 30px;
@@ -1124,5 +1190,113 @@ a:focus, a:hover {
 
 .footer{
   background: #333;
+  padding-top: 55px;
+  padding-bottom:47px;
 }
 
+.ft-title{
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  @extend .pst-relative;
+  &:after{
+    @extend .after-df;
+    width: 30px;
+    height: 3px;
+    bottom: 0px;
+    @extend .bg-color-orange;
+  }
+}
+
+.adr-title{
+  margin-bottom: 10px;
+}
+
+.logo-ft-wrap{
+  background: rgba(255,255,255,0.3);
+  padding: 10px;
+}
+
+.chuyen-nganh-wrap{
+  padding-top: 50px;
+  padding-bottom: 40px;
+  .title-box-wrap{
+    .title-box{
+      margin-bottom: 45px;
+    }
+  }
+  .col-title{
+    ul{
+      li{
+        float: none !important;
+        width: 100%;
+        margin: 0px 0px 10px 0px !important;
+        border: none;
+        @extend .radius5;
+        a{
+          display: block;
+          width: 100%;
+          border: 1px solid $color;
+          font-weight: 500;
+          margin-bottom: 10px;
+        }
+        .title-content{
+          @extend .radius5;
+          padding: 15px;
+          border: 1px solid $grayd2;
+          display: none;
+        }
+        &.active{
+          a{
+            border-color: $color;
+            @extend .bg-color;
+          }
+        }
+      }
+    }
+  }
+  .col-content{
+    .col-content-inner{
+      margin-left: -15px;
+      .tab-content{
+        .panel{
+          .panel-heading{
+            @extend .bg-color-green;
+            a{
+              color: $white;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#register_form_modal{
+  .modal-dialog{
+    .modal-content{
+      @extend .radius15;
+      @extend .overflow-hidden;
+      border: none;
+      border: none;
+      .modal-header{
+        padding: 6.5px 15px;
+        border: none;
+        border: none;
+        .close{
+          margin-top: 1px;
+          color: #fff !important;
+          outline: none;
+          opacity: 1;
+          font-weight: 300;
+          font-size: 30px;
+        }
+      }
+      .modal-body{
+        background: url("../images/bg-3.jpg");
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+    }
+  }
+}

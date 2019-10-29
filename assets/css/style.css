@@ -4,7 +4,7 @@
 @media (min-width: 1200px) {
   .container {
     width: 1200px; } }
-.after-df, .bg-overlay, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:before, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:after, .famous-people-wrap .img-bg-wrap:before, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line4 strong:after, .title-box-wrap .title-box:after, .title-box-wrap .title-box:before, .title-box-wrap .title-desc:before, .title-box-wrap .title-desc:after, .wcs-item .wcs-desc ul li .list-chance span:before, .wcs-item .wcs-desc ul li:before, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-name:after, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-desc:before {
+.after-df, .bg-overlay, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:before, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:after, .famous-people-wrap .img-bg-wrap:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:after, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line4 strong:after, .title-box-wrap .title-box:after, .title-box-wrap .title-box:before, .title-box-wrap .title-desc:before, .title-box-wrap .title-desc:after, .wcs-item .wcs-desc ul li .list-chance span:before, .wcs-item .wcs-desc ul li:before, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-name:after, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-desc:before, .ft-title:after {
   content: "";
   display: block;
   position: absolute; }
@@ -20,13 +20,16 @@
 .color, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-career {
   color: #0066b1; }
 
+.grayd2 {
+  color: #d2d2d2; }
+
 .color-orange, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-desc:before {
   color: #f36f21; }
 
 .color-green {
   color: #0cb14b; }
 
-.white, .data-item .data-item-inner i, .data-item .data-item-inner .number, .data-item .data-item-inner p, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:after {
+.white, .data-item .data-item-inner i, .data-item .data-item-inner .number, .data-item .data-item-inner p, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:after, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:after {
   color: #fff; }
 
 .hvr-color:hover {
@@ -35,13 +38,13 @@
 .hvr-white:hover {
   color: #fff; }
 
-.bg-color, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong:after, .data-item .data-item-inner {
+.bg-color, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong:after, .data-item .data-item-inner, .chuyen-nganh-wrap .col-title ul li.active a {
   background-color: #0066b1; }
 
-.bg-color-orange, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong:after, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-name:after {
+.bg-color-orange, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong:after, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-name:after, .ft-title:after {
   background: #f36f21; }
 
-.bg-color-green, .banner-slider .banner-item .banner-info .slider-content-text .line4 strong:after {
+.bg-color-green, .banner-slider .banner-item .banner-info .slider-content-text .line4 strong:after, .chuyen-nganh-wrap .col-content .col-content-inner .tab-content .panel .panel-heading {
   background: #0cb14b; }
 
 .hvr-bg-color:hover {
@@ -53,8 +56,11 @@
 .radius0 {
   border-radius: 0px; }
 
-.radius5 {
+.radius5, .chuyen-nganh-wrap .col-title ul li, .chuyen-nganh-wrap .col-title ul li .title-content {
   border-radius: 5px; }
+
+.radius15, #register_form_modal .modal-dialog .modal-content {
+  border-radius: 15px; }
 
 .radius30, .btn-dk {
   border-radius: 30px; }
@@ -165,7 +171,7 @@
   font-size: 70px;
   line-height: normal; }
 
-.transition, .after-df, .bg-overlay, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:before, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:after, .famous-people-wrap .img-bg-wrap:before, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line4 strong:after, .title-box-wrap .title-box:after, .title-box-wrap .title-box:before, .title-box-wrap .title-desc:before, .title-box-wrap .title-desc:after, .wcs-item .wcs-desc ul li .list-chance span:before, .wcs-item .wcs-desc ul li:before, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-name:after, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-desc:before, .after-df-rlt, a, .wcs-item .img-wrap img, .wcs-item .wcs-desc, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a img {
+.transition, .after-df, .bg-overlay, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:before, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:after, .famous-people-wrap .img-bg-wrap:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:after, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line4 strong:after, .title-box-wrap .title-box:after, .title-box-wrap .title-box:before, .title-box-wrap .title-desc:before, .title-box-wrap .title-desc:after, .wcs-item .wcs-desc ul li .list-chance span:before, .wcs-item .wcs-desc ul li:before, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-name:after, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-desc:before, .ft-title:after, .after-df-rlt, a, .wcs-item .img-wrap img, .wcs-item .wcs-desc, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a img {
   transition: all 0.3s ease-out 0s;
   -webkit-transition: all 0.3s ease-out 0s; }
 
@@ -205,7 +211,7 @@
 .jtf-content-center, .famous-people-wrap .infor-famous .nav-tabs {
   justify-content: center; }
 
-.bg-overlay, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:before, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:after, .famous-people-wrap .img-bg-wrap:before {
+.bg-overlay, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:before, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:after, .famous-people-wrap .img-bg-wrap:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:after {
   top: 0px;
   right: 0px;
   left: 0px;
@@ -214,7 +220,7 @@
 .no-margin {
   margin: 0px; }
 
-.pst-relative, .address-contact-wrap a i, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong, .banner-slider .banner-item .banner-info .slider-content-text .line4 strong, .wcs-item, .wcs-item .wcs-desc ul li, .wcs-item .wcs-desc ul li .list-chance span, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-name, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-desc, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a {
+.pst-relative, .address-contact-wrap a i, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong, .banner-slider .banner-item .banner-info .slider-content-text .line4 strong, .wcs-item, .wcs-item .wcs-desc ul li, .wcs-item .wcs-desc ul li .list-chance span, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-name, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-desc, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a, .ft-title {
   position: relative; }
 
 .pst-absolute, .wcs-item .wcs-desc, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:before {
@@ -483,11 +489,11 @@ a:focus, a:hover {
     color: #f36f21;
     right: -30px; }
 
-.visible-hidden, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:before, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:after {
+.visible-hidden, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:before, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:after, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:before {
   visibility: hidden;
   opacity: 0; }
 
-.overflow-hidden {
+.overflow-hidden, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a, #register_form_modal .modal-dialog .modal-content {
   overflow: hidden; }
 
 .wcs-title {
@@ -694,7 +700,8 @@ a:focus, a:hover {
   padding: 15px;
   height: 280px;
   background: #fff;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5); }
 .famous-people-wrap .infor-famous .nav-tabs {
   border-bottom: none; }
   .famous-people-wrap .infor-famous .nav-tabs li a {
@@ -734,14 +741,49 @@ a:focus, a:hover {
     .famous-people-wrap .img-bg-wrap:before {
       background: rgba(0, 0, 0, 0.3);
       background: rgba(0, 0, 0, 0.3); }
-  .famous-people-wrap .famous-people-outer .img-famous {
-    width: calc(40% - 15px);
-    border-radius: 15px; }
-  .famous-people-wrap .famous-people-outer .infor-famous {
-    width: 60%; }
+  .famous-people-wrap .famous-people-outer {
+    max-width: 870px;
+    margin: auto;
+    margin-bottom: 15px; }
+    .famous-people-wrap .famous-people-outer .img-famous {
+      width: calc(40% - 15px);
+      border-radius: 15px;
+      padding: 10px;
+      background: #fff; }
+      .famous-people-wrap .famous-people-outer .img-famous img {
+        border-radius: 10px; }
+    .famous-people-wrap .famous-people-outer .infor-famous {
+      width: 60%; }
 
 .col-youtube-inner {
-  margin-left: -15px; }
+  max-width: 885px;
+  margin: auto; }
+
+.thu-vien-youtube-slider .owl-stage-outer {
+  padding-top: 5px;
+  padding-bottom: 5px; }
+  .thu-vien-youtube-slider .owl-stage-outer .owl-item {
+    padding: 0px 7.5px; }
+    .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item {
+      padding: 10px;
+      background: #fff; }
+      .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a {
+        border-radius: 10px;
+        display: block; }
+        .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:before {
+          background: rgba(255, 255, 255, 0.1); }
+        .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:after {
+          margin: auto;
+          font-family: FontAwesome;
+          content: "\f144";
+          font-size: 30px;
+          width: 26px;
+          height: 42px; }
+        .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:hover:before {
+          visibility: visible;
+          opacity: 1; }
+        .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:hover:after {
+          color: #f36f21; }
 
 .doitac-slider-wrap {
   padding-top: 30px;
@@ -765,6 +807,70 @@ a:focus, a:hover {
   padding-bottom: 35px; }
 
 .footer {
-  background: #333; }
+  background: #333;
+  padding-top: 55px;
+  padding-bottom: 47px; }
+
+.ft-title {
+  padding-bottom: 20px;
+  margin-bottom: 20px; }
+  .ft-title:after {
+    width: 30px;
+    height: 3px;
+    bottom: 0px; }
+
+.adr-title {
+  margin-bottom: 10px; }
+
+.logo-ft-wrap {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 10px; }
+
+.chuyen-nganh-wrap {
+  padding-top: 50px;
+  padding-bottom: 40px; }
+  .chuyen-nganh-wrap .title-box-wrap .title-box {
+    margin-bottom: 45px; }
+  .chuyen-nganh-wrap .col-title ul li {
+    float: none !important;
+    width: 100%;
+    margin: 0px 0px 10px 0px !important;
+    border: none; }
+    .chuyen-nganh-wrap .col-title ul li a {
+      display: block;
+      width: 100%;
+      border: 1px solid #0066b1;
+      font-weight: 500;
+      margin-bottom: 10px; }
+    .chuyen-nganh-wrap .col-title ul li .title-content {
+      padding: 15px;
+      border: 1px solid #d2d2d2;
+      display: none; }
+    .chuyen-nganh-wrap .col-title ul li.active a {
+      border-color: #0066b1; }
+  .chuyen-nganh-wrap .col-content .col-content-inner {
+    margin-left: -15px; }
+    .chuyen-nganh-wrap .col-content .col-content-inner .tab-content .panel .panel-heading a {
+      color: #fff;
+      font-weight: 500; }
+
+#register_form_modal .modal-dialog .modal-content {
+  border: none;
+  border: none; }
+  #register_form_modal .modal-dialog .modal-content .modal-header {
+    padding: 6.5px 15px;
+    border: none;
+    border: none; }
+    #register_form_modal .modal-dialog .modal-content .modal-header .close {
+      margin-top: 1px;
+      color: #fff !important;
+      outline: none;
+      opacity: 1;
+      font-weight: 300;
+      font-size: 30px; }
+  #register_form_modal .modal-dialog .modal-content .modal-body {
+    background: url("../images/bg-3.jpg");
+    padding-top: 30px;
+    padding-bottom: 30px; }
 
 /*# sourceMappingURL=style.css.map */
