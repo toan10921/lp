@@ -10,10 +10,10 @@
     <meta property="og:image" content="http://tuyensinh.greenwich.edu.vn/img/shareFB.jpg"/>
     <title>FPT GREENWICH TUYỂN SINH ĐẠI HỌC 2019</title>
     <!-- Base href for relative path -->
-    <!--<base href="http://localhost/gw/lp/">-->
-    <!--<link rel="amphtml" href="http://localhosthost/gw/lp/index-amp.html" />-->
-    <base href="http://web888.vn/demo/greenwich/">
-    <link rel="amphtml" href="http://web888.vn/demo/greenwich/index-amp.html" />
+    <base href="http://localhost/gw/lp/">
+    <link rel="amphtml" href="http://localhosthost/gw/lp/index-amp.html" />
+    <!--<base href="http://web888.vn/demo/greenwich/">-->
+    <!--<link rel="amphtml" href="http://web888.vn/demo/greenwich/index-amp.html" />-->
     <!-- css -->
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700|Roboto:400,500,700,900&display=swap&subset=vietnamese"
@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="assets/css/lib/jquery.fancybox.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/tu.css">
+    <link rel="stylesheet" href="assets/css/hoa.css">
     <!-- js -->
     <script src="assets/js/lib/jquery-3.2.1.min.js"></script>
     <script src="assets/js/lib/bootstrap.min.js"></script>
@@ -40,23 +41,26 @@
 </head>
 <body>
 <section class="header" id="header">
-    <div class="container header-row-wrapper hd-row1 bg-color">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="address-contact-wrap flex-wrap flex-wrap-wrap jtf-content-end">
-                    <a class="white" href="tel:+8402473002266">
-                        <i class="fa fa-phone"></i> <span class="title14 font-500">HOTLINE: 024.7300.2266</span>
-                    </a>
-                    <a class="white" href="javascript:void(0)">
-                        <i class="fa fa-phone"></i> <span class="title14 font-500">HOTLINE: 0236.7300.2266</span>
-                    </a>
-                    <a class="white" href="javascript:void(0)">
-                        <i class="fa fa-phone"></i> <span class="title14 font-500">HOTLINE: 024.7300.2266</span>
-                    </a>
+    <div class="row-wrapper  bg-color">
+        <div class="container header-row-wrapper hd-row1">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="address-contact-wrap flex-wrap flex-wrap-wrap jtf-content-end">
+                        <a class="white" href="tel:+8402473002266">
+                            <i class="fa fa-phone"></i> <span class="title14 font-500">HOTLINE: 024.7300.2266</span>
+                        </a>
+                        <a class="white" href="javascript:void(0)">
+                            <i class="fa fa-phone"></i> <span class="title14 font-500">HOTLINE: 0236.7300.2266</span>
+                        </a>
+                        <a class="white" href="javascript:void(0)">
+                            <i class="fa fa-phone"></i> <span class="title14 font-500">HOTLINE: 024.7300.2266</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
     <div class="container header-row-wrapper">
         <div class="row">
             <div class="col-sm-3 col-logo">
@@ -84,76 +88,77 @@
 </section>
 <section class="main-content js-main-content" id="content">
     <div class="row1 row-banner">
-        <div class="js_banner-slider banner-slider owl-carousel owl-theme owl-loaded owl-drag">
-            <div class="banner-item banner-item-1"
-                 style="background: url('assets/images/banner/banner-greenwich-1.jpg')">
-                <div class="image-bn visible-hidden">
-                    <img src="assets/images/banner/banner-greenwich-1.jpg"/>
-                </div>
-                <div class="banner-info  pst-absolute">
-                    <div class="container">
-                        <div class="slider-content-text">
-                            <h2 class="text-uppercase no-margin color-orange line1 title48 font-900">ĐẠI HỌC GREENWICH
-                                <span class="color">(VIỆT NAM)</span></h2>
-                            <h4 class="no-margin line5 flex-wrap flex-wrap-wrap  align-items-center">
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#register_form_modal"
-                                   class="btn-dk dang_ky_btn text-center text-uppercase font-500 title18 fontosw white hvr-white bg-color inline-block">Đăng
-                                    ký</a>
-                                <span class="lienket-wrap flex-wrap flex-wrap-wrap  align-items-center">
-                                <span class="font-500 title18 color-orange">Liên kết với tổ chức giáo dục</span>
-                                <img src="assets/images/logo-fpt-100px.png" alt="Tổ chức giáo dục FPT"/>
-                                </span>
-
-                            </h4>
-                            <h3 class="no-margin line2 title24 white text-uppercase">
-                                <strong class="white bg-color">Tuyển thẳng lên lớp 12 > 6.5 Hoặc điểm thi THPT >
-                                    15</strong>
-                            </h3>
-                            <h3 class="no-margin line3 title24 white text-uppercase">
-                                <strong class="bg-color-orange white">98% Sinh viên có việc làm ngay sau khi tốt
-                                    nghiệp</strong>
-                            </h3>
-                            <h3 class="no-margin line4 title24 white text-uppercase">
-                                <strong class="bg-color-green white">Quỹ quà tặng học bổng trị giá trên 86 Tỷ
-                                    VNĐ</strong>
-                            </h3>
-                        </div>
-                    </div>
-
-                </div>
+        <div class="row1 row-banner pst-relative" style="background: url('assets/images/banner/banner1.jpg')">
+            <div class="image-bn visible-hidden">
+                <img src="assets/images/banner/banner-greenwich-1.jpg"/>
             </div>
-            <div class="banner-item banner-item-1"
-                 style="background: url('assets/images/banner/banner-greenwich-1.jpg')">
-                <div class="image-bn visible-hidden">
-                    <img src="assets/images/banner/banner-greenwich-1.jpg"/>
-                </div>
-                <div class="banner-info  pst-absolute">
-                    <div class="container">
-                        <div class="slider-content-text">
-                            <h2 class="text-uppercase no-margin color-orange line1 title48 font-900">ĐẠI HỌC GREENWICH
-                                <span class="color">(VIỆT NAM)</span></h2>
-                            <h4 class="no-margin line5 flex-wrap flex-wrap-wrap  align-items-center">
-                                <a href="javascript:void(0)"
-                                   class="btn-dk dang_ky_btn text-center text-uppercase font-500 title18 fontosw white hvr-white bg-color inline-block">Đăng
-                                    ký</a>
-                                <span class="lienket-wrap flex-wrap flex-wrap-wrap  align-items-center">
-                                <span class="font-500 title18 color-orange">Liên kết với tổ chức giáo dục</span>
-                                <img src="assets/images/logo-fpt-100px.png" alt="Tổ chức giáo dục FPT"/>
-                                </span>
-
-                            </h4>
-                            <h3 class="no-margin line2 title24 white text-uppercase">
-                                <strong class="white bg-color">Tuyển thẳng lên lớp 12 > 6.5 Hoặc điểm thi THPT >
-                                    15</strong>
-                            </h3>
-                            <h3 class="no-margin line3 title24 white text-uppercase">
-                                <strong class="bg-color-orange white">98% Sinh viên có việc làm ngay sau khi tốt
-                                    nghiệp</strong>
-                            </h3>
-                            <h3 class="no-margin line4 title24 white text-uppercase">
-                                <strong class="bg-color-green white">Quỹ quà tặng học bổng trị giá trên 86 Tỷ
-                                    VNĐ</strong>
-                            </h3>
+            <div class="container">
+                <div class="row">
+                    <div class=" col-lg-4 form-dangky pst-absolute">
+                        <div class="row-form">
+                            <div class="dong-form text-center">
+                                <h3>ĐĂNG KÝ XÉT TUYỂN</h3>
+                            </div>
+                        </div>
+                        <div class="row-form">
+                            <div class="dong-form">
+                                <input type="text" placeholder="Họ và tên" class="kichthuoc" id="name">
+                            </div>
+                        </div>
+                        <div class="row-form">
+                            <div class="dong-form">
+                                <input type="text" placeholder="Trường THPT của bạn" class="kichthuoc" id="truong">
+                            </div>
+                        </div>
+                        <div class="row-form">
+                            <div class="dong-form">
+                                <input type="number" placeholder="Điện thoại" class="kichthuoc" id="dienthoai">
+                            </div>
+                        </div>
+                        <div class="row-form">
+                            <div class="dong-form">
+                                <input type="text" placeholder="Địa chỉ" class="kichthuoc" id="diachi">
+                            </div>
+                        </div>
+                        <div class="row-form">
+                            <div class="dong-form">
+                                <select name="tp" id="noidangky" class="kichthuoc">
+                                    <option disabled="disabled" selected="selected">Nơi đăng ký tuyển sinh</option>
+                                    <option value="Hà Nội">Hà Nội</option>
+                                    <option value="Tp.Hồ Chí Minh">Tp.Hồ Chí Minh</option>
+                                    <option value="Đà Nẵng">Đà Nẵng</option>
+                                    <option value="Cần Thơ">Cần Thơ</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row-form">
+                            <div class="dong-form">
+                                <select name="tp" id="chuyennganh" class="kichthuoc">
+                                    <option disabled="disabled" selected="selected">Chuyên ngành</option>
+                                    <option value="Công nghệ thông tin">Công nghệ thông tin</option>
+                                    <option value="Thiết kế đồ họa">Thiết kế đồ họa</option>
+                                    <option value="Quản trị kinh doanh">Quản trị kinh doanh</option>
+                                    <option value="Quản trị marketing">Quản trị marketing</option>
+                                    <option value="Quản trị sự kiện">Quản trị sự kiện</option>
+                                    <option value="Quản trị truyền thông">Quản trị truyền thông</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row-form">
+                            <div class="dong-form">
+                                <select name="tp" id="phuongtienbietden" class="kichthuoc">
+                                    <option disabled="disabled" selected="selected">Bạn biết thông tin qua</option>
+                                    <option value="Facebook">Facebook</option>
+                                    <option value="Tìm kiếm Google">Tìm kiếm Google</option>
+                                    <option value="Website Lop12.edu.vn">Website Lop12.edu.vn</option>
+                                    <option value="Nguồn khác">Nguồn khác</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row-form">
+                            <div class="dong-form  text-center text-uppercase">
+                                <button  type="submit" class="btn text-uppercase radius30 fontosw dangky kichthuoc" value="Đăng ký"><span>Đăng ký</span></button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -179,237 +184,254 @@
                 <div class="row wcs-wrap">
                     <div class="col-sm-3">
                         <div class="wcs-item  radius5">
-                            <div class="img-wrap radius5 overflow-hidden">
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#register_form_modal"  class="dang_ky_btn">
-                                    <img class="hvr-grow" src="assets/images/wcs/greenwich-certificate.jpg"/>
-                                </a>
+                            <div class="img-wrap radius5 overflow-hidden"  data-toggle="modal" data-target="#myModal">
+                                <div class="icon-box2">
+                                    <i class='fa fa-address-card-o'></i>
+                                    <h3 class="title16 font-bold no-margin">Học tại Việt Nam - Nhận bằng Anh Quốc</h3>
+                                </div>
+                                <div>
+                                    <div class="wcs-short-desc title14">
+                                        Sinh viên sau quá trình học tập trực tiếp tại Việt Nam được cấp bằng tại Anh Quốc do Đại Học Greenwich cấp
+                                        [...]
+                                    </div>
+                                </div>
                             </div>
-                            <h3 class="title16 font-bold no-margin">Học tại Việt Nam - Nhận bằng Đại học Anh Quốc</h3>
-                            <div class="wcs-short-desc title14">
-                                Sinh viên sau quá trình học tập trực tiếp tại Việt Nam được cấp bằng Đại Học Anh Quốc
-                                [...]
-                            </div>
-                            <div class="wcs-desc">
-                                <ul class="list-none">
-                                    <li>Nền giáo dục Vương quốc Anh nổi tiếng khắp thế giới với những tiêu chuẩn khắt
-                                        khe nhằm đảm bảo được tính chuyên nghiệp và thực dụng, đáp ứng nhu cầu phát
-                                        triển trong công việc.
-                                    </li>
-                                    <li>Tốt nghiệp được nhân bằng Cử nhân do đại học Greenwich cấp.</li>
-                                </ul>
-                            </div>
-                            <div class="star-box flex-wrap flex-wrap-wrap jtf-content-space-between">
-                                <div class="star-rating"></div>
-                                <a class="color font-bold text-uppercase dang_ky_btn" data-toggle="modal" data-target="#register_form_modal"  href="javascript:void(0)">Đăng ký
-                                    ngay</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="wcs-item  radius5">
-                            <div class="img-wrap radius5 overflow-hidden">
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#register_form_modal"  class="dang_ky_btn">
-                                    <img class="hvr-grow" src="assets/images/wcs/greenwich-certificate.jpg"/>
-                                </a>
-                            </div>
-                            <h3 class="title16 font-bold no-margin">Được bộ Giáo dục & Đào tạo tại Việt Nam công
-                                nhận</h3>
-                            <div class="wcs-short-desc title14">
-                                Chương trình học được Bộ Giáo dục & Đào tạo Việt Nam công nhận, cấp giấy phép hoạt động
-                                [...]
-                            </div>
-                            <div class="wcs-desc">
-                                <ul class="list-none">
-                                    <li>Chương trình được Bộ Giáo dục & Đào tạo Việt Nam công nhận, cấp giấy phép số
-                                        2526/QĐ-BGD ĐT ngày 10/07/2012, 432/QĐ-BGD ĐT ngày 01/02/2013, 2455/QĐ-BGD ĐT
-                                        ngày 10/07/2015 và 3689/QD-BGD ĐT ngày 22/09/2016.
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="star-box flex-wrap flex-wrap-wrap jtf-content-space-between">
-                                <div class="star-rating"></div>
-                                <a class="color font-bold text-uppercase dang_ky_btn" data-toggle="modal" data-target="#register_form_modal"  href="javascript:void(0)">Đăng ký
-                                    ngay</a>
+                            <div class="modal fade" id="myModal" role="dialog">
+                                <div class="modal-dialog">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <div class="wcs-desc">
+                                        <ul class="list-none">
+                                            <li>Nền giáo dục Vương quốc Anh nổi tiếng khắp thế giới với những tiêu chuẩn khắt
+                                                khe nhằm đảm bảo được tính chuyên nghiệp và thực dụng, đáp ứng nhu cầu phát
+                                                triển trong công việc.
+                                            </li>
+                                            <li>Tốt nghiệp được nhân bằng Cử nhân do đại học Greenwich cấp.</li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-3">
                         <div class="wcs-item  radius5">
-                            <div class="img-wrap radius5 overflow-hidden">
-                                <a href="javascript:void(0)" class="dang_ky_btn" data-toggle="modal" data-target="#register_form_modal" >
-                                    <img class="hvr-grow" src="assets/images/wcs/greenwich-certificate.jpg"/>
-                                </a>
+                            <div class="img-wrap radius5 overflow-hidden" data-toggle="modal" data-target="#myModal1">
+                                <div class="icon-box2">
+                                    <i class='fa fa-file-text-o'></i>
+                                    <h3 class="title16 font-bold no-margin">Được bộ Giáo dục & Đào tạo Việt Nam công
+                                        nhận</h3>
+                                </div>
+                                <div class="">
+                                    <div class="wcs-short-desc title14">
+                                        Chương trình học được Bộ Giáo dục & Đào tạo Việt Nam công nhận, cấp giấy phép hoạt động chính thức tại Việt Nam
+                                        [...]
+                                    </div>
+                                </div>
                             </div>
-                            <h3 class="title16 font-bold no-margin">Chương trình thực tập đặc biệt tại Doanh nghiệp
-                                (OJT)</h3>
-                            <div class="wcs-short-desc title14">
-                                Theo thống kê, sau kì OJT trên 40% Sinh viên Greenwich (Việt Nam) được kí hợp đồng chính
-                                thức khi chưa tốt nghiệp [...]
+                            <div class="modal fade" id="myModal1" role="dialog">
+                                <div class="modal-dialog">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <div class="wcs-desc">
+                                        <ul class="list-none">
+                                            <li>Chương trình được Bộ Giáo dục & Đào tạo Việt Nam công nhận, cấp giấy phép số
+                                                2526/QĐ-BGD ĐT ngày 10/07/2012, 432/QĐ-BGD ĐT ngày 01/02/2013, 2455/QĐ-BGD ĐT
+                                                ngày 10/07/2015 và 3689/QD-BGD ĐT ngày 22/09/2016.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="wcs-desc">
-                                <ul class="list-none">
-                                    <li>OJT (On the job tranning) là chương trình thực tập đặc biệt tại doanh nghiệp với
-                                        tổng thời lượng 4 - 8 tháng với 2 giai đoạn đào tạo, mang đến cho sinh viên kiến
-                                        thức thực tiễn, giúp sinh viên trải nghiệm nghề nghiệp, tích lũy kinh nghiệm
-                                        thực tiễn cho công việc và sự nghiệp sau khi ra trường
-                                    </li>
-                                    <li>Theo thống kê, sau kì OJT có tới 40% sinh viên Đại học Greenwich (Việt Nam) được
-                                        kí hợp đồng chính thức ngay khi chưa tốt nghiệp
-                                    </li>
-                                </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="wcs-item  radius5">
+                            <div class="img-wrap radius5 overflow-hidden" data-toggle="modal" data-target="#myModal2">
+                                <div class="icon-box2">
+                                    <i class='fa fa-building-o'></i>
+                                    <h3 class="title16 font-bold no-margin">Chương trình thực tập đặc Doanh nghiệp
+                                        (OJT)</h3>
+                                </div>
+                                <div class="">
+                                    <div class="wcs-short-desc title14">
+                                        Theo thống kê, sau kì OJT trên 40% Sinh viên Greenwich (Việt Nam) được kí hợp đồng chính
+                                        thức khi chưa tốt nghiệp [...]
+                                    </div>
+                                </div>
                             </div>
-                            <div class="star-box flex-wrap flex-wrap-wrap jtf-content-space-between">
-                                <div class="star-rating"></div>
-                                <a data-toggle="modal" data-target="#register_form_modal"  class="color font-bold text-uppercase dang_ky_btn" href="javascript:void(0)">Đăng ký
-                                    ngay</a>
+                            <div class="modal fade" id="myModal2" role="dialog">
+                                <div class="modal-dialog">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <div class="wcs-desc">
+                                        <ul class="list-none">
+                                            <li>OJT (On the job tranning) là chương trình thực tập đặc biệt tại doanh nghiệp với
+                                                tổng thời lượng 4 - 8 tháng với 2 giai đoạn đào tạo, mang đến cho sinh viên kiến
+                                                thức thực tiễn, giúp sinh viên trải nghiệm nghề nghiệp, tích lũy kinh nghiệm
+                                                thực tiễn cho công việc và sự nghiệp sau khi ra trường
+                                            </li>
+                                            <li>Theo thống kê, sau kì OJT có tới 40% sinh viên Đại học Greenwich (Việt Nam) được
+                                                kí hợp đồng chính thức ngay khi chưa tốt nghiệp
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-3">
                         <div class="wcs-item  radius5 last-item">
-                            <div class="img-wrap radius5 overflow-hidden">
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#register_form_modal"  class="dang_ky_btn">
-                                    <img class="hvr-grow" src="assets/images/wcs/greenwich-certificate.jpg"/>
-                                </a>
+                            <div class="img-wrap radius5 overflow-hidden" data-toggle="modal" data-target="#myModal3">
+                                <div class="icon-box2">
+                                    <i class='fa fa-graduation-cap'></i>
+                                    <h3 class="title16 font-bold no-margin">Cơ hội việc làm ngay sau khi tốt nghiệp</h3>
+                                </div>
+                                <div class="">
+                                    <div class="wcs-short-desc title14">
+                                        Sinh viên Đại học Greenwich (Việt Nam) được chào đón làm việc tại nhiều doanh nghiệp
+                                        Trong nước và quốc tế [...]
+                                    </div>
+                                </div>
                             </div>
-                            <h3 class="title16 font-bold no-margin">Cơ hội việc làm rộng mở ngay sau khi tốt nghiệp</h3>
-                            <div class="wcs-short-desc title14">
-                                Sinh viên Đại học Greenwich (Việt Nam) được chào đón làm việc tại nhiều doanh nghiệp
-                                Trong nước và quốc tế [...]
+                            <div class="modal fade" id="myModal3" role="dialog">
+                                <div class="modal-dialog">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <div class="wcs-desc">
+                                        <ul class="list-none">
+                                            <li>Sinh viên tốt nghiệp Đại học Greenwich (Việt Nam) được chào đón làm việc tại Tập
+                                                đoàn FPT (với 7 công ty thành viên và hơn 30,000 cán bộ nhân viên), và hàng trăm
+                                                doanh nghiệp, tập đoàn đối tác lớn ở Việt Nam cũng như trên toàn thế giới:
+                                                Viettel, GameLoft, Vietinbank, Mercedes-Benz, Prudential, Sacombank, Haveynash,
+                                                SAP…
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="wcs-desc">
-                                <ul class="list-none">
-                                    <li>Sinh viên tốt nghiệp Đại học Greenwich (Việt Nam) được chào đón làm việc tại Tập
-                                        đoàn FPT (với 7 công ty thành viên và hơn 30,000 cán bộ nhân viên), và hàng trăm
-                                        doanh nghiệp, tập đoàn đối tác lớn ở Việt Nam cũng như trên toàn thế giới:
-                                        Viettel, GameLoft, Vietinbank, Mercedes-Benz, Prudential, Sacombank, Haveynash,
-                                        SAP…
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="star-box flex-wrap flex-wrap-wrap jtf-content-space-between">
-                                <div class="star-rating"></div>
-                                <a class="color font-bold text-uppercase dang_ky_btn" data-toggle="modal" data-target="#register_form_modal"  href="javascript:void(0)">Đăng ký
-                                    ngay</a>
-                            </div>
+
                         </div>
                     </div>
                     <div class="col-sm-3">
                         <div class="wcs-item  radius5">
-                            <div class="img-wrap radius5 overflow-hidden">
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#register_form_modal"  class="dang_ky_btn">
-                                    <img class="hvr-grow" src="assets/images/wcs/greenwich-certificate.jpg"/>
-                                </a>
+                            <div class="img-wrap radius5 overflow-hidden" data-toggle="modal" data-target="#myModal4">
+                                <div class="icon-box2">
+                                    <i class='fa fa-university'></i>
+                                    <h3 class="title16 font-bold no-margin">Môi trường giảng viên và sinh viên Quốc tế</h3>
+                                </div>
+                                <div class="">
+                                    <div class="wcs-short-desc title14">
+                                        Sinh viên được học tập trong môi trường du học tại Việt Nam với giáo trình quốc tế,
+                                        giảng viên và sinh viên đến từ nhiều quốc gia trên thế giới [...]
+                                    </div>
+                                </div>
                             </div>
-                            <h3 class="title16 font-bold no-margin">Môi trường Quốc tế - Học tập cùng giảng viên và sinh
-                                viên Quốc tế</h3>
-                            <div class="wcs-short-desc titlel4">
-                                Sinh viên được học tập trong môi trường du học tại Việt Nam với giáo trình quốc tế,
-                                giảng viên và sinh viên đến từ nhiều quốc gia trên thế giới [...]
+                            <div class="modal fade" id="myModal4" role="dialog">
+                                <div class="modal-dialog">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <div class="wcs-desc">
+                                        <ul class="list-none">
+                                            <li>Sinh viên học tại Đại học Greenwich (Việt Nam) sẽ được học tập trong môi trường
+                                                giống như du học với giáo trình quốc tế, giảng viên và sinh viên đến từ nhiều
+                                                quốc gia trên thế giới.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="wcs-desc">
-                                <ul class="list-none">
-                                    <li>Sinh viên học tại Đại học Greenwich (Việt Nam) sẽ được học tập trong môi trường
-                                        giống như du học với giáo trình quốc tế, giảng viên và sinh viên đến từ nhiều
-                                        quốc gia trên thế giới.
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="star-box flex-wrap flex-wrap-wrap jtf-content-space-between">
-                                <div class="star-rating"></div>
-                                <a class="color font-bold text-uppercase dang_ky_btn" data-toggle="modal" data-target="#register_form_modal"  href="javascript:void(0)">Đăng ký
-                                    ngay</a>
-                            </div>
+
                         </div>
                     </div>
                     <div class="col-sm-3">
                         <div class="wcs-item  radius5">
-                            <div class="img-wrap radius5 overflow-hidden">
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#register_form_modal"  class="dang_ky_btn">
-                                    <img class="hvr-grow" src="assets/images/wcs/greenwich-certificate.jpg"/>
-                                </a>
+                            <div class="img-wrap radius5 overflow-hidden" data-toggle="modal" data-target="#myModal5">
+                                <div class="icon-box2">
+                                    <i class='fa fa-plane'></i>
+                                    <h3 class="title16 font-bold no-margin">Cơ hội học tập và làm việc tại nước ngoài</h3>
+                                </div>
+                                <div class="">
+                                    <div class="wcs-short-desc title14">
+                                        Ngay trong quá trình theo học tại trường, sinh viên Đại học Greenwich (Việt Nam) có cơ
+                                        hội trải nghiệm môi trường học tập tại các quốc gia ngoài Việt Nam [...]
+                                    </div>
+                                </div>
                             </div>
-                            <h3 class="title16 font-bold no-margin">Cơ hội học tập và làm việc tại nước ngoài</h3>
-                            <div class="wcs-short-desc titlel4">
-                                Ngay trong quá trình theo học tại trường, sinh viên Đại học Greenwich (Việt Nam) có cơ
-                                hội trải nghiệm môi trường học tập tại các quốc gia ngoài Việt Nam [...]
+                            <div class="modal fade" id="myModal5" role="dialog">
+                                <div class="modal-dialog">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <div class="wcs-desc">
+                                        <ul class="list-none">
+                                            <li>
+                                                <div class="chance-desc">
+                                                    Ngay trong quá trình theo học tại trường, sinh viên Đại học Greenwich (Việt
+                                                    Nam) có cơ hội trải nghiệm môi trường học tập tại các quốc gia ngoài Việt
+                                                    Nam thông qua các chương trình trao đổi sinh viên , thực tập, hội thảo...
+                                                    tiêu biểu như:
+                                                </div>
+                                                <div class="list-chance">
+                                                    <span class="chance-item">Chương trình học tiếng Anh tại các nước Philippines,Malaysia,Singapore...</span>
+                                                    <span class="chance-item">Học một kì học chuyên nghành tại Đại học Greenwich - Anh Quốc</span>
+                                                    <span class="chance-item">Trải nghiệm cuộc sống bản địa và giao lưu văn hóa tại các nước</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="wcs-desc">
-                                <ul class="list-none">
-                                    <li>
-                                        <div class="chance-desc">
-                                            Ngay trong quá trình theo học tại trường, sinh viên Đại học Greenwich (Việt
-                                            Nam) có cơ hội trải nghiệm môi trường học tập tại các quốc gia ngoài Việt
-                                            Nam thông qua các chương trình trao đổi sinh viên , thực tập, hội thảo...
-                                            tiêu biểu như:
-                                        </div>
-                                        <div class="list-chance">
-                                            <span class="chance-item">Chương trình học tiếng Anh tại các nước Philippines,Malaysia,Singapore...</span>
-                                            <span class="chance-item">Học một kì học chuyên nghành tại Đại học Greenwich - Anh Quốc</span>
-                                            <span class="chance-item">Trải nghiệm cuộc sống bản địa và giao lưu văn hóa tại các nước</span>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="star-box flex-wrap flex-wrap-wrap jtf-content-space-between">
-                                <div class="star-rating"></div>
-                                <a class="color font-bold text-uppercase dang_ky_btn" data-toggle="modal" data-target="#register_form_modal"  href="javascript:void(0)">Đăng ký
-                                    ngay</a>
-                            </div>
+
                         </div>
                     </div>
                     <div class="col-sm-3">
                         <div class="wcs-item  radius5">
-                            <div class="img-wrap radius5 overflow-hidden">
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#register_form_modal"  class="dang_ky_btn">
-                                    <img class="hvr-grow" src="assets/images/wcs/greenwich-certificate.jpg"/>
-                                </a>
+                            <div class="img-wrap radius5 overflow-hidden" data-toggle="modal" data-target="#myModal6">
+                                <div class="icon-box2">
+                                    <i class='fa fa-check'></i>
+                                    <h3 class="title16 font-bold no-margin">Hoàn thiện bản thân - Phát triển kĩ năng</h3>
+                                </div>
+                                <div class="">
+                                    <div class="wcs-short-desc title14">
+                                        Sinh viên sẽ được phát triển toàn diện với chương trình đào tạo kĩ năng sống, kỹ năng
+                                        mềm thông qua các lớp học kỹ năng và nhiều hoạt động trải nghiệm thú vị [...]
+                                    </div>
+                                </div>
                             </div>
-                            <h3 class="title16 font-bold no-margin">Hoàn thiện bản thân với chuỗi chương trình phát
-                                triển kĩ năng ( PDP )</h3>
-                            <div class="wcs-short-desc titlel4">
-                                Sinh viên sẽ được phát triển toàn diện với chương trình đào tạo kĩ năng sống, kỹ năng
-                                mềm thông qua các lớp học kỹ năng và nhiều hoạt động trải nghiệm thú vị [...]
+                            <div class="modal fade" id="myModal6" role="dialog">
+                                <div class="modal-dialog">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <div class="wcs-desc">
+                                        <ul class="list-none">
+                                            <li>Sinh viên sẽ được phát triển toàn diện với chương trình đào tạo kĩ năng sống, kỹ
+                                                năng mềm thông qua các lớp học kỹ năng và nhiều hoạt động trải nghiệm thú vị
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="wcs-desc">
-                                <ul class="list-none">
-                                    <li>Sinh viên sẽ được phát triển toàn diện với chương trình đào tạo kĩ năng sống, kỹ
-                                        năng mềm thông qua các lớp học kỹ năng và nhiều hoạt động trải nghiệm thú vị
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="star-box flex-wrap flex-wrap-wrap jtf-content-space-between">
-                                <div class="star-rating"></div>
-                                <a class="color font-bold text-uppercase dang_ky_btn" data-toggle="modal" data-target="#register_form_modal"  href="javascript:void(0)">Đăng ký
-                                    ngay</a>
-                            </div>
+
                         </div>
                     </div>
                     <div class="col-sm-3">
                         <div class="wcs-item  radius5 last-item">
-                            <div class="img-wrap radius5 overflow-hidden">
-                                <a data-toggle="modal" data-target="#register_form_modal"  href="javascript:void(0)" class="dang_ky_btn">
-                                    <img class="hvr-grow" src="assets/images/wcs/greenwich-certificate.jpg"/>
-                                </a>
+                            <div class="img-wrap radius5 overflow-hidden" data-toggle="modal" data-target="#myModal7">
+                                <div class="icon-box2">
+                                    <i class='fa fa-money'></i>
+                                    <h3 class="title16 font-bold no-margin">Chi phí bằng 1/10 so với đi du học tại Anh</h3>
+                                </div>
+                                <div class="">
+                                    <div class="wcs-short-desc title14">
+                                        Du học trong nước với phi phí chỉ bằng 1/10 so với đi du học tại Anh. Chất lượng học tập chuẩn quốc tế - Tốt nghiệp bằng Cử Nhân đại học Greenwich cấp [...]
+                                    </div>
+                                </div>
                             </div>
-                            <h3 class="title16 font-bold no-margin">Chi phí bằng 1/10 so với đi du học tại Anh</h3>
-                            <div class="wcs-short-desc titlel4">
-                                Du học trong nước với phi phí chỉ bằng 1/10 so với đi du học tại Anh. Chất lượng học tập
-                                đạt chuẩn quốc tế - Tốt nghiệp bằng Cử Nhân do đại học Greenwich cấp [...]
-                            </div>
-                            <div class="wcs-desc">
-                                <ul class="list-none">
-                                    <li>Nền giáo dục Vương quốc Anh nổi tiếng khắp thế giới với những tiêu chuẩn khắt
-                                        khe nhằm đảm bảo được tính chuyên nghiệp và thực dụng, đáp ứng nhu cầu phát
-                                        triển trong công việc.
-                                    </li>
-                                    <li>Tốt nghiệp được nhân bằng Cử nhân do đại học Greenwich cấp.</li>
-                                </ul>
-                            </div>
-                            <div class="star-box flex-wrap flex-wrap-wrap jtf-content-space-between">
-                                <div class="star-rating"></div>
-                                <a class="color font-bold text-uppercase dang_ky_btn" data-toggle="modal" data-target="#register_form_modal"  href="javascript:void(0)">Đăng ký
-                                    ngay</a>
+                            <div class="modal fade" id="myModal7" role="dialog">
+                                <div class="modal-dialog">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <div class="wcs-desc">
+                                        <ul class="list-none">
+                                            <li>Nền giáo dục Vương quốc Anh nổi tiếng khắp thế giới với những tiêu chuẩn khắt
+                                                khe nhằm đảm bảo được tính chuyên nghiệp và thực dụng, đáp ứng nhu cầu phát
+                                                triển trong công việc.
+                                            </li>
+                                            <li>Tốt nghiệp được nhân bằng Cử nhân do đại học Greenwich cấp.</li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
