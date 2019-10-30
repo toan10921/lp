@@ -1,0 +1,43 @@
+
+$color: #0066b1;
+$color-orange: #f36f21;
+$color-green: #0cb14b;
+$white: #fff;
+$grayd2: #d2d2d2;
+
+.form-dangky{
+  max-width: 300px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 10px;
+  margin-left :50px;
+  padding: 0px 20px 20px 20px;
+  background: $white;
+  margin-top: 20px;
+  h3{
+    font-size: 24px;
+    color: $color-orange;
+    margin-bottom: 20px;
+  }
+  .kichthuoc{
+    width:100%;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  .dangky{
+    background: $color-orange;
+    color: $white;
+    font-size: 20px;
+  }
+  select{
+    font-size: 14px;
+    padding: 0px 15px;
+  }
+}
+.anh-gt{
+  .anh-gt-items{
+    img{
+      max-width: 350px;
+    }
+  }
+}
