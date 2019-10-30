@@ -606,14 +606,6 @@ a:focus, a:hover {
   width: auto;
   margin: auto; }
 
-.form-tu-van-wrap {
-  background: url(../images/bg-3.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  padding-top: 50px;
-  padding-bottom: 50px; }
-
 .form-tu-van .form-title {
   margin-bottom: 30px; }
 .form-tu-van .textarea-wrap {
@@ -895,7 +887,6 @@ a:focus, a:hover {
       font-weight: 300;
       font-size: 30px; }
   #register_form_modal .modal-dialog .modal-content .modal-body {
-    background: url("../images/bg-3.jpg");
     padding-top: 30px;
     padding-bottom: 30px; }
 
