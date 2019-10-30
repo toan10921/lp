@@ -4,7 +4,7 @@
 @media (min-width: 1200px) {
   .container {
     width: 1200px; } }
-.after-df, .bg-overlay, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:before, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:after, .famous-people-wrap .img-bg-wrap:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:after, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line4 strong:after, .title-box-wrap .title-box:after, .title-box-wrap .title-box:before, .title-box-wrap .title-desc:before, .title-box-wrap .title-desc:after, .wcs-item .wcs-desc ul li .list-chance span:before, .wcs-item .wcs-desc ul li:before, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-name:after, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-desc:before, .ft-title:after {
+.after-df, .bg-overlay, .data-wrap .col-thongke:before, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:before, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:after, .famous-people-wrap .img-bg-wrap:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:after, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line4 strong:after, .title-box-wrap .title-box:after, .title-box-wrap .title-box:before, .title-box-wrap .title-desc:before, .title-box-wrap .title-desc:after, .wcs-item .wcs-desc ul li .list-chance span:before, .wcs-item .wcs-desc ul li:before, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-name:after, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-desc:before, .ft-title:after {
   content: "";
   display: block;
   position: absolute; }
@@ -172,7 +172,7 @@
   font-size: 70px;
   line-height: normal; }
 
-.transition, .after-df, .bg-overlay, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:before, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:after, .famous-people-wrap .img-bg-wrap:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:after, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line4 strong:after, .title-box-wrap .title-box:after, .title-box-wrap .title-box:before, .title-box-wrap .title-desc:before, .title-box-wrap .title-desc:after, .wcs-item .wcs-desc ul li .list-chance span:before, .wcs-item .wcs-desc ul li:before, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-name:after, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-desc:before, .ft-title:after, .after-df-rlt, a, .wcs-item .img-wrap img, .wcs-item .wcs-desc, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a img {
+.transition, .after-df, .bg-overlay, .data-wrap .col-thongke:before, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:before, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:after, .famous-people-wrap .img-bg-wrap:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:after, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line4 strong:after, .title-box-wrap .title-box:after, .title-box-wrap .title-box:before, .title-box-wrap .title-desc:before, .title-box-wrap .title-desc:after, .wcs-item .wcs-desc ul li .list-chance span:before, .wcs-item .wcs-desc ul li:before, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-name:after, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-desc:before, .ft-title:after, .after-df-rlt, a, .wcs-item .img-wrap img, .wcs-item .wcs-desc, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a img {
   transition: all 0.3s ease-out 0s;
   -webkit-transition: all 0.3s ease-out 0s; }
 
@@ -212,7 +212,7 @@
 .jtf-content-center, .famous-people-wrap .infor-famous .nav-tabs {
   justify-content: center; }
 
-.bg-overlay, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:before, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:after, .famous-people-wrap .img-bg-wrap:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:after {
+.bg-overlay, .data-wrap .col-thongke:before, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:before, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:after, .famous-people-wrap .img-bg-wrap:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:after {
   top: 0px;
   right: 0px;
   left: 0px;
@@ -485,7 +485,7 @@ a:focus, a:hover {
     color: #f36f21;
     right: -30px; }
 
-.visible-hidden, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:before, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:after, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:before {
+.visible-hidden, .data-wrap .col-thongke:before, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:before, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:after, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:before {
   visibility: hidden;
   opacity: 0; }
 
@@ -493,10 +493,12 @@ a:focus, a:hover {
   overflow: hidden; }
 
 .wcs-title {
-  padding-top: 50px; }
+  padding-top: 100px; }
 
 .wcs-content {
   padding-bottom: 60px; }
+  .wcs-content .btn-wrap {
+    margin-top: 15px; }
 
 .wcs-wrap {
   margin-left: -7.5px;
@@ -661,12 +663,28 @@ a:focus, a:hover {
     .data-item .data-item-inner i {
       margin-bottom: 5px; }
 
-.data-wrap {
+.data-wrap .title-box:before {
+  background: url("../images/title-after-icon-bg-orange.jpg");
+  background-size: contain; }
+.data-wrap .col-gioithieu {
   padding-top: 50px;
-  padding-bottom: 20px; }
-  .data-wrap .title-box:before {
-    background: url("../images/title-after-icon-bg-orange.jpg");
-    background-size: contain; }
+  padding-bottom: 40px; }
+  .data-wrap .col-gioithieu > * {
+    max-width: 500px;
+    padding-left: 35px; }
+  .data-wrap .col-gioithieu > h4 {
+    margin-bottom: 15px; }
+.data-wrap .col-thongke {
+  background: url("../images/gt-gw-bg.jpg");
+  background-size: cover;
+  min-height: 360px; }
+  .data-wrap .col-thongke:before {
+    background: rgba(255, 255, 255, 0.1); }
+  .data-wrap .col-thongke .anh-gt a:hover {
+    color: #f36f21; }
+  .data-wrap .col-thongke:hover:before {
+    visibility: visible;
+    opacity: 1; }
 
 .thu-vien-anh-slider .owl-item {
   padding: 0px 7.5px; }
@@ -904,5 +922,9 @@ a:focus, a:hover {
   .form-dangky select {
     font-size: 14px;
     padding: 0px 15px; }
+
+.container.fullwidth {
+  width: 100%;
+  max-width: 100% !important; }
 
 /*# sourceMappingURL=style.css.map */

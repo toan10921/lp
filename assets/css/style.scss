@@ -685,10 +685,13 @@ a:focus, a:hover {
 }
 
 .wcs-title{
-  padding-top: 50px;
+  padding-top: 100px;
 }
 .wcs-content{
   padding-bottom: 60px;
+  .btn-wrap{
+    margin-top: 15px;
+  }
 }
 
 .wcs-wrap {
@@ -944,8 +947,8 @@ a:focus, a:hover {
 }
 
 .data-wrap{
-  padding-top: 50px;
-  padding-bottom: 20px;
+  //padding-top: 50px;
+  //padding-bottom: 20px;
   .title-box{
     &:before{
       background: url("../images/title-after-icon-bg-orange.jpg");
@@ -953,10 +956,39 @@ a:focus, a:hover {
     }
   }
   .col-gioithieu{
-
+    padding-top: 50px;
+    padding-bottom: 40px;
+    > *{
+      max-width: 500px;
+      padding-left: 35px;
+    }
+    > h4{
+      margin-bottom: 15px;
+    }
   }
   .col-thongke{
-
+    background: url("../images/gt-gw-bg.jpg");
+    background-size: cover;
+    min-height: 360px;
+    &:before{
+      @extend .after-df;
+      @extend .bg-overlay;
+      @extend .visible-hidden;
+      background: rgba(255,255,255,0.1);
+    }
+    .anh-gt{
+      a{
+        &:hover{
+          color: $color-orange;
+        }
+      }
+    }
+    &:hover{
+      &:before{
+        visibility: visible;
+        opacity: 1;
+      }
+    }
   }
 }
 
@@ -1343,4 +1375,9 @@ a:focus, a:hover {
     font-size: 14px;
     padding: 0px 15px;
   }
+}
+
+.container.fullwidth{
+  width: 100%;
+  max-width: 100% !important;
 }
