@@ -176,6 +176,11 @@ $grayd2: #d2d2d2;
   line-height: normal;
 }
 
+.title22{
+  font-size: 22px;
+  line-height: normal;
+}
+
 .title24 {
   font-size: 24px;
   line-height: normal;
@@ -850,12 +855,12 @@ a:focus, a:hover {
 }
 
 .form-tu-van-wrap{
-  background: url(../images/bg-3.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  //background: url(../images/bg-3.jpg);
+  //background-size: cover;
+  //background-position: center;
+  //background-attachment: fixed;
+  //padding-top: 50px;
+  //padding-bottom: 50px;
 }
 
 .form-tu-van{
@@ -1268,31 +1273,62 @@ a:focus, a:hover {
       margin-bottom: 45px;
     }
   }
-  .col-title{
-    ul{
-      li{
-        float: none !important;
-        width: 100%;
-        margin: 0px 0px 10px 0px !important;
-        border: none;
-        @extend .radius5;
-        a{
-          display: block;
-          width: 100%;
-          border: 1px solid $color;
-          font-weight: 500;
+  .col-chuyennganh-inner{
+    max-width: 280px;
+    .chuyen-nganh-title{
+      @extend .bg-color;
+      height: 50px;
+      line-height: 50px;
+      padding: 0px 15px;
+      border-radius: 5px 5px 0px 0px;
+    }
+    .chuyen-nganh-content{
+      padding-top: 20px;
+      padding-bottom: 20px;
+      border-radius: 0px 0px 5px 5px;
+      border: 1px solid $grayd2;
+      border-top: none;
+      .lst-chuyen-nganh{
+        padding: 0px 15px;
+        > li{
+          @extend .flex-wrap;
+          @extend .flex-wrap-wrap;
+          @extend .align-items-center;
           margin-bottom: 10px;
-        }
-        .title-content{
-          @extend .radius5;
-          padding: 15px;
-          border: 1px solid $grayd2;
-          display: none;
-        }
-        &.active{
-          a{
-            border-color: $color;
+          > i{
+            @extend .title20;
+            @extend .white;
             @extend .bg-color;
+            @extend .round;
+            @extend .flex-wrap;
+            @extend .align-items-center;
+            @extend .jtf-content-center;
+            width: 40px;
+            height: 40px;
+          }
+          a{
+            padding-left: 10px;
+            width: calc(100% - 41px);
+          }
+          &:last-child{
+            margin-bottom: 0px;
+          }
+        }
+        .lst-qtkd{
+          padding-left: 15px;
+          padding-top: 20px;
+          > li{
+            margin-bottom: 10px;
+            cursor: pointer;
+            @extend .title18;
+            > i{
+              @extend .color;
+              margin-right: 5px;
+              margin-right: 5px;
+            }
+            &:last-child{
+              margin-bottom: 0px;
+            }
           }
         }
       }
@@ -1300,17 +1336,19 @@ a:focus, a:hover {
   }
   .col-content{
     .col-content-inner{
-      margin-left: -15px;
-      .tab-content{
-        .panel{
-          .panel-heading{
-            @extend .bg-color-green;
-            a{
-              color: $white;
-              font-weight: 500;
-            }
-          }
-        }
+      margin-left: -55px;
+      .chuyen-nganh-title{
+        @extend .bg-color;
+        height: 50px;
+        line-height: 50px;
+        padding: 0px 15px;
+        border-radius: 5px 5px 0px 0px;
+      }
+      .thong-tin-content{
+        padding: 30px 15px;
+        border: 1px solid $grayd2;
+        border-top: none;
+        border-radius: 0px 0px 5px 5px;
       }
     }
   }
@@ -1337,7 +1375,6 @@ a:focus, a:hover {
         }
       }
       .modal-body{
-        background: url("../images/bg-3.jpg");
         padding-top: 30px;
         padding-bottom: 30px;
       }
