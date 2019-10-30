@@ -7,8 +7,8 @@ $(document).ready(function () {
         $(".js_sinhvien-slider").each(function (){
             $(this).owlCarousel({
                 items: 3,
-                nav: true,
-                dots: false,
+                nav: false,
+                dots: true,
                 loop: true,
                 navText: ['<i class="fa fa-long-arrow-left"></i>','<i class="fa fa-long-arrow-right"></i>'],
                 animateIn: "slideInLeft",
