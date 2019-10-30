@@ -5,7 +5,7 @@ $white: #fff;
 $grayd2: #d2d2d2;
 
 .container {
-  max-width: 1200px;
+  max-width: 1050px;
 }
 
 @media (min-width: 1200px) {
@@ -718,17 +718,17 @@ a:focus, a:hover {
     text-align: justify;
   }
   .wcs-desc {
-    @extend .pst-absolute;
+    /*@extend .pst-absolute;*/
     @extend .transition;
-    right: calc(-100% - 15px);
-    left: calc(100% + 15px);
+    /*right: calc(-100% - 15px);
+    left: calc(100% + 15px);*/
     top: 0px;
     bottom: 0px;
     width: 100%;
     height: 100%;
     background: #fff;
-    visibility: hidden;
-    opacity: 0;
+    /*visibility: hidden;
+    opacity: 0;*/
     z-index: 1;
     padding: 15px;
     border-radius: 5px;
@@ -794,12 +794,12 @@ a:focus, a:hover {
       right: calc(100% + 15px);
     }
   }
-  &:hover {
+  /*&:hover {
     .wcs-desc {
       visibility: visible;
       opacity: 1;
     }
-  }
+  }*/
 }
 
 .form-tu-van{
