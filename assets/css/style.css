@@ -949,4 +949,45 @@ a:focus, a:hover {
   width: 100%;
   max-width: 100% !important; }
 
+.nguoinoitieng .img-noitieng {
+  display: flex; }
+  .nguoinoitieng .img-noitieng .famous-img {
+    width: 16.6666%;
+    position: relative; }
+    .nguoinoitieng .img-noitieng .famous-img .instagram-text-follow {
+      position: absolute;
+      color: #fff;
+      top: 40%;
+      left: 40%;
+      bottom: 0;
+      right: 0;
+      content: "";
+      transition: all 0.3s ease-out 0s;
+      -webkit-transition: all 0.3s ease-out 0s; }
+      .nguoinoitieng .img-noitieng .famous-img .instagram-text-follow i {
+        opacity: 0;
+        visibility: hidden; }
+  .nguoinoitieng .img-noitieng .famous-img:before {
+    background: rgba(255, 255, 255, 0.2);
+    opacity: 0;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: "";
+    transition: all 0.3s ease-out 0s;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transform: scale(0);
+    -webkit-transform: scale(0); }
+  .nguoinoitieng .img-noitieng .famous-img:hover:before {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    -webkit-transform: scale(1); }
+  .nguoinoitieng .img-noitieng .famous-img:hover i {
+    opacity: 1;
+    visibility: visible; }
+
 /*# sourceMappingURL=style.css.map */
