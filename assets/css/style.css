@@ -4,7 +4,7 @@
 @media (min-width: 1200px) {
   .container {
     width: 1200px; } }
-.after-df, .bg-overlay, .data-wrap .col-thongke:before, .famous-people-wrap .img-bg-wrap:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:after, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line4 strong:after, .title-box-wrap .title-box:after, .title-box-wrap .title-box:before, .title-box-wrap .title-desc:before, .title-box-wrap .title-desc:after, .wcs-item .wcs-desc ul li .list-chance span:before, .wcs-item .wcs-desc ul li:before, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-desc:before, .ft-title:after {
+.after-df, .bg-overlay, .data-wrap .col-thongke:before, .famous-people-wrap .img-bg-wrap:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:after, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line4 strong:after, .title-box-wrap .title-box:after, .title-box-wrap .title-box:before, .title-box-wrap .title-desc:before, .title-box-wrap .title-desc:after, .wcs-item .wcs-desc ul li .list-chance span:before, .wcs-item .wcs-desc ul li:before, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-desc:before, .ft-title:after, .chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .tbl-thongtin tr td:last-child ul li:before {
   content: "";
   display: block;
   position: absolute; }
@@ -23,7 +23,7 @@
 .grayd2 {
   color: #d2d2d2; }
 
-.color-orange, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-desc:before, .form-dangky h3 {
+.color-orange, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-desc:before, .chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .tbl-thongtin tr td:last-child ul li:before, .form-dangky h3 {
   color: #f36f21; }
 
 .color-green {
@@ -86,7 +86,7 @@
 .font-italic {
   font-style: italic; }
 
-.font-bold, .form-dangky h3 {
+.font-bold, .chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .tbl-thongtin tr td:first-child, .form-dangky h3 {
   font-weight: 700; }
 
 .title10 {
@@ -99,6 +99,7 @@
 .title16,
 .title18,
 .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh .lst-qtkd > li,
+.chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .tbl-thongtin tr td .hocbong-desc h5,
 .title24,
 .form-dangky h3,
 .title30,
@@ -124,7 +125,7 @@
 .title16 {
   font-size: 16px; }
 
-.title18, .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh .lst-qtkd > li {
+.title18, .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh .lst-qtkd > li, .chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .tbl-thongtin tr td .hocbong-desc h5 {
   font-size: 18px;
   line-height: normal; }
 
@@ -176,7 +177,7 @@
   font-size: 70px;
   line-height: normal; }
 
-.transition, .after-df, .bg-overlay, .data-wrap .col-thongke:before, .famous-people-wrap .img-bg-wrap:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:after, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line4 strong:after, .title-box-wrap .title-box:after, .title-box-wrap .title-box:before, .title-box-wrap .title-desc:before, .title-box-wrap .title-desc:after, .wcs-item .wcs-desc ul li .list-chance span:before, .wcs-item .wcs-desc ul li:before, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-desc:before, .ft-title:after, .after-df-rlt, a, .wcs-item .img-wrap img, .wcs-item .wcs-desc {
+.transition, .after-df, .bg-overlay, .data-wrap .col-thongke:before, .famous-people-wrap .img-bg-wrap:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:after, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line4 strong:after, .title-box-wrap .title-box:after, .title-box-wrap .title-box:before, .title-box-wrap .title-desc:before, .title-box-wrap .title-desc:after, .wcs-item .wcs-desc ul li .list-chance span:before, .wcs-item .wcs-desc ul li:before, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-desc:before, .ft-title:after, .chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .tbl-thongtin tr td:last-child ul li:before, .after-df-rlt, a, .wcs-item .img-wrap img, .wcs-item .wcs-desc {
   transition: all 0.3s ease-out 0s;
   -webkit-transition: all 0.3s ease-out 0s; }
 
@@ -225,7 +226,7 @@
 .no-margin {
   margin: 0px; }
 
-.pst-relative, .address-contact-wrap a i, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong, .banner-slider .banner-item .banner-info .slider-content-text .line4 strong, .wcs-item, .wcs-item .wcs-desc ul li, .wcs-item .wcs-desc ul li .list-chance span, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-name, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-desc, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a, .ft-title {
+.pst-relative, .address-contact-wrap a i, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong, .banner-slider .banner-item .banner-info .slider-content-text .line4 strong, .wcs-item, .wcs-item .wcs-desc ul li, .wcs-item .wcs-desc ul li .list-chance span, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-name, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-desc, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a, .ft-title, .chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .tbl-thongtin tr td:last-child ul li {
   position: relative; }
 
 .pst-absolute {
@@ -805,7 +806,7 @@ a:focus, a:hover {
 
 .chuyen-nganh-wrap {
   padding-top: 50px;
-  padding-bottom: 40px; }
+  padding-bottom: 0px; }
   .chuyen-nganh-wrap .title-box-wrap .title-box {
     margin-bottom: 45px; }
   .chuyen-nganh-wrap .col-chuyennganh-inner {
@@ -856,6 +857,60 @@ a:focus, a:hover {
       border: 1px solid #d2d2d2;
       border-top: none;
       border-radius: 0px 0px 5px 5px; }
+      .chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .han-nop {
+        margin-bottom: 15px; }
+      .chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .tbl-thongtin {
+        display: block;
+        max-height: 400px;
+        overflow: hidden;
+        overflow-y: auto;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+        /* width */
+        /* Track */
+        /* Handle */
+        /* Handle on hover */ }
+        .chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .tbl-thongtin::-webkit-scrollbar {
+          width: 8px;
+          border-radius: 5px; }
+        .chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .tbl-thongtin::-webkit-scrollbar-track {
+          background: #fafafa;
+          border-radius: 5px; }
+        .chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .tbl-thongtin::-webkit-scrollbar-thumb {
+          background: #0066b1;
+          border-radius: 5px; }
+        .chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .tbl-thongtin::-webkit-scrollbar-thumb:hover {
+          background: rgba(0, 102, 177, 0.8); }
+        .chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .tbl-thongtin tr td {
+          border: 1px solid #d2d2d2;
+          border-collapse: collapse; }
+          .chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .tbl-thongtin tr td .hocbong-desc h5 {
+            margin-bottom: 15px;
+            margin-top: 10px; }
+            .chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .tbl-thongtin tr td .hocbong-desc h5 i {
+              margin-right: 5px; }
+          .chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .tbl-thongtin tr td .hocbong-desc ul {
+            padding-left: 14px !important; }
+        .chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .tbl-thongtin tr td:first-child {
+          min-width: 140px;
+          padding-left: 15px;
+          text-transform: uppercase; }
+        .chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .tbl-thongtin tr td:last-child {
+          padding-top: 15px;
+          padding-left: 15px;
+          padding-right: 15px; }
+          .chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .tbl-thongtin tr td:last-child ul {
+            list-style: none;
+            padding-left: 0px; }
+            .chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .tbl-thongtin tr td:last-child ul li {
+              margin-bottom: 10px;
+              padding-left: 10px;
+              padding-left: 10px; }
+              .chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .tbl-thongtin tr td:last-child ul li:before {
+                font-family: FontAwesome;
+                content: "\f0da";
+                left: 0px; }
+  .chuyen-nganh-wrap .btn-wrap {
+    padding-top: 30px; }
 
 #register_form_modal .modal-dialog .modal-content {
   border: none;
