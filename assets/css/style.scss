@@ -874,7 +874,7 @@ a:focus, a:hover {
   }
 }
 
-.sinhvien_slider{
+.sinhvien_slider-outer{
   margin: 0px -15px;
   .owl-stage-outer{
     padding-top: 15px;
@@ -967,106 +967,6 @@ a:focus, a:hover {
         visibility: visible;
         opacity: 1;
       }
-    }
-  }
-}
-
-.famous-people-wrap{
-  .tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border-radius: 8px;
-    border: solid 5px $white;
-  }
-  .tab-content{
-   // border: 1px solid #d2d2d2;
-    border-radius: 15px;
-    padding: 15px;
-    height: 280px;
-    background: $white;
-    margin-bottom: 15px;
-    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
-  }
-  .infor-famous{
-    .nav-tabs{
-      border-bottom: none;
-      @extend .flex-wrap;
-      @extend .flex-wrap-wrap;
-      @extend .jtf-content-center;
-      li{
-        a{
-          background: $white;
-          border: none;
-          padding: 2px;
-          border-radius: 50%;
-          margin: 0px 7.5px;
-        }
-        &.active{
-          a{
-            .tab-img{
-              border-color: $color;
-              box-shadow: 0px 0px 4px #333;
-            }
-          }
-        }
-        &:hover{
-          a{
-            .tab-img{
-              border-color: $color;
-              box-shadow: 0px 0px 4px #333;
-            }
-          }
-        }
-      }
-    }
-    .tab-img{
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      background-position: center;
-      background-position: top;
-      background-size: cover !important;
-      margin: auto;
-      border: solid 2px $color-orange;
-      background: $white;
-    }
-  }
-}
-
-.famous-people-wrap{
- // background: #2d3791;
-  .img-bg-wrap{
-    &:before{
-      @extend .after-df;
-      @extend .bg-overlay;
-      background: rgba(0,0,0,0.3);
-      background: rgba(0,0,0,0.3);
-    }
-    top: 0px;
-    width: 30%;
-    height: 100%;
-    background-size: cover;
-  }
-  background-image: linear-gradient(to right, #7967fe 0%, #21a2fd 51%, #7967fe 100%);
-  background-image: -webkit-linear-gradient(to right, #7967fe 0%, #21a2fd 51%, #7967fe 100%);
-  background-image: -ms-linear-gradient(to right, #7967fe 0%, #21a2fd 51%, #7967fe 100%);
-  padding-top: 60px;
-  padding-bottom: 60px;
-  .famous-people-outer{
-    max-width: 870px;
-    margin: auto;
-    margin-bottom: 15px;
-    .img-famous{
-      width: calc(40% - 15px);
-      border-radius: 15px;
-      padding: 10px;
-      background: $white;
-      img{
-        border-radius: 10px;
-      }
-    }
-    .infor-famous{
-      width: 60%;
     }
   }
 }
@@ -1584,10 +1484,4 @@ a:focus, a:hover {
 
 .row-banner{
   background-size: cover !important;
-}
-
-.cs-col-1,.cs-col-2{
-  > div{
-    margin-right: -25px;
-  }
 }

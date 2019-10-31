@@ -1,35 +1,250 @@
-/*
-Sass::SyntaxError: ".after-df" failed to @extend ".transition".
-The selector ".transition" was not found.
-Use "@extend .transition !optional" if the extend should be able to fail.
+.radius5, .chuyen-nganh-title {
+  border-radius: 5px; }
 
+.color, .content-thongtin > ul > li:before, .sinhvien_slider-outer .owl-stage-outer .owl-item .sinhvien-item .sv-career {
+  color: #0066b1; }
 
-Backtrace:
-mobile.scss:11
-D:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/extend.rb:56:in `block in check_extends_fired!'
-D:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/util/subset_map.rb:105:in `block in each_value'
-D:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/util/subset_map.rb:105:in `each'
-D:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/util/subset_map.rb:105:in `each_value'
-D:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/extend.rb:51:in `check_extends_fired!'
-D:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/extend.rb:16:in `visit'
-D:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:39:in `css_tree'
-D:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-D:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-D:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
-D:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-D:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-D:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
-D:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-D:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin.rb:82:in `update_stylesheets'
-D:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:338:in `watch_or_update'
-D:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:51:in `process_result'
-D:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
-D:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
-D:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/bin/scss:13:in `<top (required)>'
-D:/Ruby25-x64/bin/scss:23:in `load'
-D:/Ruby25-x64/bin/scss:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Sass::SyntaxError: \".after-df\" failed to @extend \".transition\".\A The selector \".transition\" was not found.\A Use \"@extend .transition !optional\" if the extend should be able to fail.\A "; }
+.font-bold, .content-thongtin > h5 {
+  font-weight: 700; }
+
+.black333 {
+  color: #333; }
+
+.grayd2 {
+  color: #d2d2d2; }
+
+.color-orange, .sinhvien_slider-outer .owl-stage-outer .owl-item .sinhvien-item .sv-desc:before {
+  color: #f36f21; }
+
+.color-green {
+  color: #0cb14b; }
+
+.white, .title-thongtin {
+  color: #fff; }
+
+.bg-color {
+  background-color: #0066b1; }
+
+.bg-color-orange, .title-thongtin {
+  background: #f36f21; }
+
+.bg-color-green {
+  background: #0cb14b; }
+
+.list-none, .content-thongtin > ul {
+  list-style: none; }
+
+.title12 {
+  font-size: 12px;
+  line-height: normal; }
+
+.title18 {
+  font-size: 18px;
+  line-height: normal; }
+
+.after-df, .title-box:after, .content-thongtin > ul > li:before, .sinhvien_slider-outer .owl-stage-outer .owl-item .sinhvien-item .sv-desc:before {
+  content: "";
+  display: block;
+  position: absolute; }
+
+.logo {
+  max-height: 40px;
+  width: auto; }
+
+img {
+  width: 100%; }
+
+.toggle-mobile-btn {
+  font-size: 30px; }
+
+.header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2); }
+
+.title-box {
+  font-size: 18px;
+  line-height: normal;
+  color: #0066b1;
+  text-align: center;
+  position: relative;
+  padding-bottom: 15px;
+  margin-bottom: 15px; }
+  .title-box:after {
+    width: 30px;
+    height: 3px;
+    background: #f36f21;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    bottom: 0px; }
+
+.form-dangky input, .form-dangky select {
+  width: 100%;
+  padding: 0px 15px;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 10px;
+  border: 1px solid #d2d2d2; }
+.form-dangky button[type="submit"] {
+  background: #f36f21;
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  padding: 0px;
+  display: block;
+  color: #fff; }
+
+.wcs-desc {
+  font-weight: 700; }
+
+.row1-mobile {
+  padding-top: 40px; }
+  .row1-mobile .desc2 {
+    font-weight: 700;
+    margin-bottom: 15px; }
+
+.btn-wrap a {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  background: #0066b1;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px; }
+
+.chuyen-nganh-title {
+  background: #0066b1;
+  height: 40px;
+  line-height: 40px;
+  padding: 0px 15px;
+  font-size: 18px;
+  text-transform: uppercase; }
+
+.lst-chuyen-nganh {
+  padding-left: 15px;
+  font-size: 18px; }
+  .lst-chuyen-nganh > li {
+    margin-bottom: 15px; }
+  .lst-chuyen-nganh .lst-qtkd {
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 18px; }
+    .lst-chuyen-nganh .lst-qtkd > li {
+      margin-bottom: 15px; }
+
+.title-thongtin {
+  font-size: 18px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.content-thongtin > ul {
+  padding-left: 0px; }
+  .content-thongtin > ul > li {
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 15px; }
+    .content-thongtin > ul > li:before {
+      font-family: FontAwesome;
+      content: "\f0da";
+      left: 0px; }
+    .content-thongtin > ul > li:last-child {
+      margin-bottom: 0px; }
+.content-thongtin > h5 {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 20px;
+  margin-bottom: 15px; }
+
+.sinhvien_slider-outer {
+  margin: 0px -15px; }
+  .sinhvien_slider-outer .owl-stage-outer {
+    padding-top: 15px;
+    padding-bottom: 45px; }
+    .sinhvien_slider-outer .owl-stage-outer .owl-item {
+      padding: 0px 15px; }
+      .sinhvien_slider-outer .owl-stage-outer .owl-item .sinhvien-item {
+        border: 1px solid #d2d2d2;
+        padding: 15px;
+        box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1); }
+        .sinhvien_slider-outer .owl-stage-outer .owl-item .sinhvien-item .img-wrap {
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          overflow: hidden;
+          position: absolute;
+          right: 35px;
+          bottom: -25px;
+          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); }
+        .sinhvien_slider-outer .owl-stage-outer .owl-item .sinhvien-item .sv-name {
+          position: relative;
+          padding-bottom: 14px; }
+        .sinhvien_slider-outer .owl-stage-outer .owl-item .sinhvien-item .sv-desc {
+          text-indent: 25px;
+          position: relative; }
+          .sinhvien_slider-outer .owl-stage-outer .owl-item .sinhvien-item .sv-desc:before {
+            font-family: FontAwesome;
+            content: "\f064";
+            text-indent: 0px;
+            font-size: 16px;
+            top: -1px; }
+  .sinhvien_slider-outer .owl-nav button.owl-prev {
+    left: -30px; }
+  .sinhvien_slider-outer .owl-nav button.owl-next {
+    right: -30px; }
+
+.nguoinoitieng .img-noitieng {
+  display: flex;
+  flex-wrap: wrap; }
+  .nguoinoitieng .img-noitieng .famous-img {
+    width: 33.33333%;
+    position: relative; }
+    .nguoinoitieng .img-noitieng .famous-img .instagram-text-follow {
+      position: absolute;
+      color: #fff;
+      top: 40%;
+      left: 40%;
+      bottom: 0;
+      right: 0;
+      content: "";
+      transition: all 0.3s ease-out 0s;
+      -webkit-transition: all 0.3s ease-out 0s; }
+      .nguoinoitieng .img-noitieng .famous-img .instagram-text-follow i {
+        opacity: 0;
+        visibility: hidden; }
+  .nguoinoitieng .img-noitieng .famous-img a {
+    display: block; }
+    .nguoinoitieng .img-noitieng .famous-img a:before {
+      background: rgba(255, 255, 255, 0.2);
+      opacity: 0;
+      z-index: 1;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      content: "";
+      transition: all 0.3s ease-out 0s;
+      -webkit-transition: all 0.3s ease-out 0s;
+      transform: scale(0);
+      -webkit-transform: scale(0); }
+  .nguoinoitieng .img-noitieng .famous-img:hover a:before {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    -webkit-transform: scale(1); }
+  .nguoinoitieng .img-noitieng .famous-img:hover i {
+    opacity: 1;
+    visibility: visible; }
+
+.footer {
+  background: #333; }
+
+.logo-ft-wrap {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 10px; }
+
+/*# sourceMappingURL=mobile.css.map */

@@ -12,15 +12,33 @@ $(document).ready(function () {
                 loop: true,
                 navText: ['<i class="fa fa-long-arrow-left"></i>','<i class="fa fa-long-arrow-right"></i>'],
                 animateIn: "slideInLeft",
-                animateOut: "slideOutLeft"
+                animateOut: "slideOutLeft",
+                responsive: {
+                    0:{
+                        items:1,
+                        dots: false,
+                    },
+                    600:{
+                        items:2,
+                        dots: false,
+                    },
+                    1000:{
+                        items:3,
+                        loop:false
+                    }
+                }
             });
         });
     }
-
-    $('.dang_ky_btn').on("click",function(){
-        $.fancybox.close();
-    });
-
+    if($(window).width > 767){
+        $('.dang_ky_btn').on("click",function(){
+            $.fancybox.close();
+        });
+    }else{
+        $('.dang_ky_btn').on("click",function(){
+            $.fancybox.close();
+        });
+    }
 });
 
 $(window).on("load",function () {

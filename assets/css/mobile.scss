@@ -4,11 +4,68 @@ $color-green: #0cb14b;
 $white: #fff;
 $grayd2: #d2d2d2;
 $black333: #333;
+
+.radius5{
+  border-radius: 5px;
+}
+
+.color {
+  color: $color;
+}
+
+.font-bold{
+  font-weight: 700;
+}
+
+.black333{
+  color: $black333;
+}
+
+.grayd2{
+  color: $grayd2;
+}
+
+.color-orange {
+  color: $color-orange;
+}
+
+.color-green{
+  color: $color-green;
+}
+
+.white {
+  color: $white;
+}
+
+.bg-color {
+  background-color: $color;
+}
+
+.bg-color-orange {
+  background: $color-orange;
+}
+
+.bg-color-green{
+  background: $color-green;
+}
+
+.list-none{
+  list-style: none;
+}
+
+.title12{
+  font-size: 12px;
+  line-height: normal;
+}
+.title18{
+  font-size: 18px;
+  line-height: normal;
+}
+
 .after-df {
   content: "";
   display: block;
   position: absolute;
-  @extend .transition;
 }
 .logo{
   max-height: 40px;
@@ -33,7 +90,18 @@ img{
   color: $color;
   text-align: center;
   position: relative;
-
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  &:after{
+    @extend .after-df;
+    width: 30px;
+    height: 3px;
+    background: $color-orange;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    bottom:0px;
+  }
 }
 
 .form-dangky{
@@ -55,7 +123,212 @@ img{
     color: $white;
   }
 }
-
 .wcs-desc{
   font-weight: 700;
+}
+
+.row1-mobile{
+  padding-top: 40px;
+  .desc2{
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+}
+.btn-wrap{
+  a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    background: $color;
+    color: $white;
+    text-align: center;
+    border-radius: 5px;
+  }
+}
+.chuyen-nganh-title{
+  background: $color;
+  height: 40px;
+  line-height: 40px;
+  padding: 0px 15px;
+  @extend .radius5;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.lst-chuyen-nganh{
+  padding-left: 15px;
+  font-size: 18px;
+  > li{
+    margin-bottom: 15px;
+  }
+  .lst-qtkd{
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 18px;
+    > li{
+      margin-bottom: 15px;
+    }
+  }
+}
+
+.title-thongtin{
+  @extend .bg-color-orange;
+  @extend .white;
+  font-size: 18px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.content-thongtin{
+  > ul{
+    padding-left: 0px;
+    @extend .list-none;
+   > li{
+      position: relative;
+      padding-left: 15px;
+      margin-bottom: 15px;
+      &:before{
+        @extend .after-df;
+        font-family: FontAwesome;
+        @extend .color;
+        content: "\f0da";
+        left: 0px;
+      }
+     &:last-child{
+       margin-bottom: 0px;
+     }
+    }
+  }
+  >h5{
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    @extend .font-bold;
+  }
+}
+.sinhvien_slider-outer{
+  margin: 0px -15px;
+  .owl-stage-outer{
+    padding-top: 15px;
+    padding-bottom: 45px;
+    .owl-item{
+      padding: 0px 15px;
+      .sinhvien-item{
+        border: 1px solid #d2d2d2;
+        padding: 15px;
+        box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+        .img-wrap{
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          overflow: hidden;
+          position: absolute;
+          right: 35px;
+          bottom: -25px;
+          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+        }
+        .sv-name{
+          position: relative;
+          padding-bottom: 14px;
+        }
+        .sv-career{
+          @extend .color;
+        }
+        .sv-desc{
+          text-indent: 25px;
+          position: relative;
+          &:before{
+            @extend .after-df;
+            font-family: FontAwesome;
+            content:"\f064";
+            text-indent: 0px;
+            font-size: 16px;
+            top: -1px;
+            @extend .color-orange;
+          }
+        }
+      }
+    }
+  }
+  .owl-nav{
+    button.owl-prev{
+      left: -30px;
+    }
+    button.owl-next{
+      right: -30px;
+    }
+  }
+}
+
+.nguoinoitieng {
+  .img-noitieng {
+    display: flex;
+    flex-wrap: wrap;
+    .famous-img {
+      width: 33.33333%;
+      position: relative;
+      .instagram-text-follow{
+        position: absolute;
+        color: $white;
+        top: 40%;
+        left:40%;
+        bottom: 0;
+        right: 0;
+        content: "";
+        transition: all 0.3s ease-out 0s;
+        -webkit-transition: all 0.3s ease-out 0s;
+        i{
+          opacity: 0;
+          visibility: hidden;
+        }
+      }
+    }
+    .famous-img{
+      a{
+        display: block;
+        &:before{
+          background: rgba(255,255,255,0.2);
+          opacity: 0;
+          z-index: 1;
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          content: "";
+          transition: all 0.3s ease-out 0s;
+          -webkit-transition: all 0.3s ease-out 0s;
+          transform: scale(0);
+          -webkit-transform: scale(0);
+        }
+      }
+    }
+    .famous-img:hover{
+      a{
+        &:before{
+          opacity: 1;
+          visibility: visible;
+          transform: scale(1);
+          -webkit-transform: scale(1);
+        }
+      }
+      i{
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+}
+
+.footer{
+  background: $black333;
+}
+
+.logo-ft-wrap{
+  background: rgba(255,255,255,0.3);
+  padding: 10px;
 }
