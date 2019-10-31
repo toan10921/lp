@@ -4,7 +4,7 @@
 @media (min-width: 1200px) {
   .container {
     width: 1200px; } }
-.after-df, .bg-overlay, .data-wrap .col-thongke:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:after, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line4 strong:after, .title-box-wrap .title-box:after, .title-box-wrap .title-box:before, .title-box-wrap .title-desc:before, .title-box-wrap .title-desc:after, .wcs-item .wcs-desc ul li .list-chance span:before, .wcs-item .wcs-desc ul li:before, .sinhvien_slider-outer .owl-stage-outer .owl-item .sinhvien-item .sv-desc:before, .ft-title:after, .chuyen-nganh-wrap .col-chuyennganh-inner .xem-mau-bang:before, .chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .tbl-thongtin tr td:last-child ul li:before, .fancybox-chuyen-nganh .first-block .first-block-inner .content-text > h4:after, .fancybox-chuyen-nganh .second-block .second-block-inner .job-target li:before {
+.after-df, .bg-overlay, .data-wrap .col-thongke:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:after, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line4 strong:after, .title-box-wrap .title-box:after, .title-box-wrap .title-box:before, .title-box-wrap .title-desc:before, .title-box-wrap .title-desc:after, .wcs-item .wcs-desc ul li .list-chance span:before, .wcs-item .wcs-desc ul li:before, .sinhvien_slider-outer .owl-stage-outer .owl-item .sinhvien-item .sv-desc:before, .ft-title:after, .chuyen-nganh-wrap .chuyen-nganh-item .text-wrap .readmore:after, .chuyen-nganh-wrap .col-dangky-inner .bang-greenwich:before, .chuyen-nganh-wrap .col-dangky-inner .xem-mau-bang:before, .chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .tbl-thongtin tr td:last-child ul li:before, .fancybox-chuyen-nganh .first-block .first-block-inner .content-text > h4:after, .fancybox-chuyen-nganh .second-block .second-block-inner .job-target li:before {
   content: "";
   display: block;
   position: absolute; }
@@ -14,10 +14,10 @@
   display: block;
   position: relative; }
 
-.round, .address-contact-wrap a i, .owl-carousel .owl-nav [class*=owl-], #myModal1 .modal-dialog button.close, #myModal2 .modal-dialog button.close, #myModal3 .modal-dialog button.close, #myModal4 .modal-dialog button.close, #myModal5 .modal-dialog button.close, #myModal6 .modal-dialog button.close, #myModal7 .modal-dialog button.close, #myModal .modal-dialog button.close, .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh > li > i {
+.round, .address-contact-wrap a i, .owl-carousel .owl-nav [class*=owl-], #myModal1 .modal-dialog button.close, #myModal2 .modal-dialog button.close, #myModal3 .modal-dialog button.close, #myModal4 .modal-dialog button.close, #myModal5 .modal-dialog button.close, #myModal6 .modal-dialog button.close, #myModal7 .modal-dialog button.close, #myModal .modal-dialog button.close {
   border-radius: 50%; }
 
-.color, .wcs-item .icon-box2 i.fa:before, .sinhvien_slider-outer .owl-stage-outer .owl-item .sinhvien-item .sv-career, .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh .lst-qtkd > li i, .fancybox-chuyen-nganh .second-block .second-block-inner .job-target li:before {
+.color, .wcs-item .icon-box2 i.fa:before, .sinhvien_slider-outer .owl-stage-outer .owl-item .sinhvien-item .sv-career, .fancybox-chuyen-nganh .second-block .second-block-inner .job-target li:before {
   color: #0066b1; }
 
 .black333 {
@@ -32,7 +32,7 @@
 .color-green {
   color: #0cb14b; }
 
-.white, #myModal1 .modal-dialog button.close, #myModal2 .modal-dialog button.close, #myModal3 .modal-dialog button.close, #myModal4 .modal-dialog button.close, #myModal5 .modal-dialog button.close, #myModal6 .modal-dialog button.close, #myModal7 .modal-dialog button.close, #myModal .modal-dialog button.close, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:after, .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh > li > i {
+.white, #myModal1 .modal-dialog button.close, #myModal2 .modal-dialog button.close, #myModal3 .modal-dialog button.close, #myModal4 .modal-dialog button.close, #myModal5 .modal-dialog button.close, #myModal6 .modal-dialog button.close, #myModal7 .modal-dialog button.close, #myModal .modal-dialog button.close, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:after {
   color: #fff; }
 
 .hvr-color:hover {
@@ -41,7 +41,7 @@
 .hvr-white:hover {
   color: #fff; }
 
-.bg-color, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong:after, #myModal1 .modal-dialog button.close, #myModal2 .modal-dialog button.close, #myModal3 .modal-dialog button.close, #myModal4 .modal-dialog button.close, #myModal5 .modal-dialog button.close, #myModal6 .modal-dialog button.close, #myModal7 .modal-dialog button.close, #myModal .modal-dialog button.close, .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-title, .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh > li > i, .chuyen-nganh-wrap .col-content .col-content-inner .chuyen-nganh-title, .fancybox-chuyen-nganh .first-block .first-block-inner .content-text > h4:after {
+.bg-color, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong:after, #myModal1 .modal-dialog button.close, #myModal2 .modal-dialog button.close, #myModal3 .modal-dialog button.close, #myModal4 .modal-dialog button.close, #myModal5 .modal-dialog button.close, #myModal6 .modal-dialog button.close, #myModal7 .modal-dialog button.close, #myModal .modal-dialog button.close, .chuyen-nganh-wrap .chuyen-nganh-item .text-wrap .readmore:after, .chuyen-nganh-wrap .col-content .col-content-inner .chuyen-nganh-title, .fancybox-chuyen-nganh .first-block .first-block-inner .content-text > h4:after {
   background-color: #0066b1; }
 
 .bg-color-orange, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong:after, .ft-title:after {
@@ -59,7 +59,7 @@
 .radius0 {
   border-radius: 0px; }
 
-.radius5, .chuyen-nganh-wrap .col-chuyennganh-inner .bang-greenwich {
+.radius5, .chuyen-nganh-wrap .col-dangky-inner .bang-greenwich {
   border-radius: 5px; }
 
 .radius15, .fancybox-chuyen-nganh, #register_form_modal .modal-dialog .modal-content {
@@ -109,7 +109,6 @@
 #myModal .modal-dialog button.close,
 .title16,
 .title18,
-.chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh .lst-qtkd > li,
 .chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .tbl-thongtin tr td .hocbong-desc h5,
 .title24,
 .form-dangky h3,
@@ -136,11 +135,11 @@
 .title16 {
   font-size: 16px; }
 
-.title18, .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh .lst-qtkd > li, .chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .tbl-thongtin tr td .hocbong-desc h5 {
+.title18, .chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .tbl-thongtin tr td .hocbong-desc h5 {
   font-size: 18px;
   line-height: normal; }
 
-.title20, .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh > li > i {
+.title20 {
   font-size: 20px;
   line-height: normal; }
 
@@ -188,11 +187,11 @@
   font-size: 70px;
   line-height: normal; }
 
-.transition, .after-df, .bg-overlay, .data-wrap .col-thongke:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:after, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line4 strong:after, .title-box-wrap .title-box:after, .title-box-wrap .title-box:before, .title-box-wrap .title-desc:before, .title-box-wrap .title-desc:after, .wcs-item .wcs-desc ul li .list-chance span:before, .wcs-item .wcs-desc ul li:before, .sinhvien_slider-outer .owl-stage-outer .owl-item .sinhvien-item .sv-desc:before, .ft-title:after, .chuyen-nganh-wrap .col-chuyennganh-inner .xem-mau-bang:before, .chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .tbl-thongtin tr td:last-child ul li:before, .fancybox-chuyen-nganh .first-block .first-block-inner .content-text > h4:after, .fancybox-chuyen-nganh .second-block .second-block-inner .job-target li:before, .after-df-rlt, a, .wcs-item .img-wrap img, .wcs-item .wcs-desc, .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh .lst-qtkd > li {
+.transition, .after-df, .bg-overlay, .data-wrap .col-thongke:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:after, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line4 strong:after, .title-box-wrap .title-box:after, .title-box-wrap .title-box:before, .title-box-wrap .title-desc:before, .title-box-wrap .title-desc:after, .wcs-item .wcs-desc ul li .list-chance span:before, .wcs-item .wcs-desc ul li:before, .sinhvien_slider-outer .owl-stage-outer .owl-item .sinhvien-item .sv-desc:before, .ft-title:after, .chuyen-nganh-wrap .chuyen-nganh-item .text-wrap .readmore:after, .chuyen-nganh-wrap .col-dangky-inner .bang-greenwich:before, .chuyen-nganh-wrap .col-dangky-inner .xem-mau-bang:before, .chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .tbl-thongtin tr td:last-child ul li:before, .fancybox-chuyen-nganh .first-block .first-block-inner .content-text > h4:after, .fancybox-chuyen-nganh .second-block .second-block-inner .job-target li:before, .after-df-rlt, a, .wcs-item .img-wrap img, .wcs-item .wcs-desc {
   transition: all 0.3s ease-out 0s;
   -webkit-transition: all 0.3s ease-out 0s; }
 
-.flex-wrap, .address-contact-wrap a, .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh > li, .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh > li > i {
+.flex-wrap, .address-contact-wrap a {
   display: flex;
   display: -webkit-flex;
   display: -moz-flex;
@@ -203,16 +202,16 @@
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox; }
 
-.flex-wrap, .address-contact-wrap a, .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh > li, .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh > li > i {
+.flex-wrap, .address-contact-wrap a {
   display: flex;
   display: -webkit-flex;
   display: -moz-flex;
   display: -o-flex; }
 
-.flex-wrap-wrap, .address-contact-wrap a, .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh > li {
+.flex-wrap-wrap, .address-contact-wrap a {
   flex-wrap: wrap; }
 
-.align-items-center, .address-contact-wrap a, .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh > li, .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh > li > i {
+.align-items-center, .address-contact-wrap a {
   align-items: center;
   -ms-align-items: center;
   -webkit-align-items: center; }
@@ -225,7 +224,7 @@
 .jtf-content-space-between {
   justify-content: space-between; }
 
-.jtf-content-center, .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh > li > i {
+.jtf-content-center {
   justify-content: center; }
 
 .bg-overlay, .data-wrap .col-thongke:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:after {
@@ -237,10 +236,10 @@
 .no-margin {
   margin: 0px; }
 
-.pst-relative, .address-contact-wrap a i, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong, .banner-slider .banner-item .banner-info .slider-content-text .line4 strong, .wcs-item, .wcs-item .wcs-desc ul li, .wcs-item .wcs-desc ul li .list-chance span, .sinhvien_slider-outer .owl-stage-outer .owl-item .sinhvien-item .sv-name, .sinhvien_slider-outer .owl-stage-outer .owl-item .sinhvien-item .sv-desc, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a, .ft-title, .chuyen-nganh-wrap .col-chuyennganh-inner .xem-mau-bang, .chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .tbl-thongtin tr td:last-child ul li, .fancybox-chuyen-nganh .first-block .first-block-inner .content-text > h4, .fancybox-chuyen-nganh .second-block .second-block-inner .job-target li {
+.pst-relative, .address-contact-wrap a i, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong, .banner-slider .banner-item .banner-info .slider-content-text .line4 strong, .wcs-item, .wcs-item .wcs-desc ul li, .wcs-item .wcs-desc ul li .list-chance span, .sinhvien_slider-outer .owl-stage-outer .owl-item .sinhvien-item .sv-name, .sinhvien_slider-outer .owl-stage-outer .owl-item .sinhvien-item .sv-desc, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a, .ft-title, .chuyen-nganh-wrap .chuyen-nganh-item .text-wrap .readmore, .chuyen-nganh-wrap .col-dangky-inner .xem-mau-bang, .chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .tbl-thongtin tr td:last-child ul li, .fancybox-chuyen-nganh .first-block .first-block-inner .content-text > h4, .fancybox-chuyen-nganh .second-block .second-block-inner .job-target li {
   position: relative; }
 
-.pst-absolute, .chuyen-nganh-wrap .col-chuyennganh-inner .xem-mau-bang > span, .chuyen-nganh-wrap .col-chuyennganh-inner .xem-mau-bang i {
+.pst-absolute, .chuyen-nganh-wrap .col-dangky-inner .xem-mau-bang > span, .chuyen-nganh-wrap .col-dangky-inner .xem-mau-bang i {
   position: absolute; }
 
 .bg-parallax {
@@ -761,67 +760,58 @@ a:focus, a:hover {
   padding-bottom: 0px; }
   .chuyen-nganh-wrap .title-box-wrap .title-box {
     margin-bottom: 45px; }
-  .chuyen-nganh-wrap .col-chuyennganh-inner {
-    max-width: 280px; }
-    .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-title {
-      height: 50px;
-      line-height: 50px;
-      padding: 0px 15px;
-      border-radius: 5px 5px 0px 0px; }
-    .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content {
-      padding-top: 20px;
-      padding-bottom: 20px;
-      margin-bottom: 30px;
-      border-radius: 0px 0px 5px 5px;
+  .chuyen-nganh-wrap .chuyen-nganh-item {
+    margin-bottom: 30px; }
+    .chuyen-nganh-wrap .chuyen-nganh-item .img-wrap {
+      display: block; }
+    .chuyen-nganh-wrap .chuyen-nganh-item .text-wrap {
       border: 1px solid #d2d2d2;
-      border-top: none; }
-      .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh {
-        padding: 0px 15px; }
-        .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh > li {
-          margin-bottom: 10px; }
-          .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh > li > i {
-            width: 40px;
-            height: 40px; }
-          .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh > li > a {
-            padding-left: 10px;
-            width: calc(100% - 41px); }
-          .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh > li:last-child {
-            margin-bottom: 0px; }
-        .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh .lst-qtkd {
-          padding-left: 15px;
-          padding-top: 20px; }
-          .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh .lst-qtkd > li {
-            margin-bottom: 10px;
-            cursor: pointer; }
-            .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh .lst-qtkd > li i {
-              margin-right: 5px;
-              margin-right: 5px; }
-            .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh .lst-qtkd > li:last-child {
-              margin-bottom: 0px; }
-            .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh .lst-qtkd > li:hover {
-              margin-left: 10px; }
-    .chuyen-nganh-wrap .col-chuyennganh-inner .bang-greenwich {
+      border-top: none;
+      padding: 15px 30px 25px 30px; }
+      .chuyen-nganh-wrap .chuyen-nganh-item .text-wrap h3 {
+        margin-bottom: 10px; }
+      .chuyen-nganh-wrap .chuyen-nganh-item .text-wrap .readmore:after {
+        width: 100%;
+        height: 1px;
+        bottom: 0px; }
+      .chuyen-nganh-wrap .chuyen-nganh-item .text-wrap .readmore:hover:after {
+        background: #f36f21; }
+  .chuyen-nganh-wrap .col-dangky-inner {
+    max-width: 280px; }
+    .chuyen-nganh-wrap .col-dangky-inner .form-dangky {
+      margin-left: 0px;
+      margin-top: 0px;
+      padding-top: 25px;
+      margin-bottom: 30px; }
+    .chuyen-nganh-wrap .col-dangky-inner .bang-greenwich {
       padding: 25px 15px; }
-    .chuyen-nganh-wrap .col-chuyennganh-inner .xem-mau-bang {
+      .chuyen-nganh-wrap .col-dangky-inner .bang-greenwich:before {
+        width: 30px;
+        height: 30px;
+        background: #333;
+        z-index: -1;
+        bottom: -20px;
+        right: 70px; }
+    .chuyen-nganh-wrap .col-dangky-inner .xem-mau-bang {
       display: block;
       width: 100%;
       height: 100px;
-      margin-top: -75px;
+      margin-top: -80px;
       border-radius: 0px 0px 5px 0px;
       border-radius: 0px 0px 5px 0px;
       overflow: hidden; }
-      .chuyen-nganh-wrap .col-chuyennganh-inner .xem-mau-bang:before {
+      .chuyen-nganh-wrap .col-dangky-inner .xem-mau-bang:before {
         width: 0;
         height: 0;
         border-bottom: 100px solid #0066b1;
         border-left: 100px solid transparent;
         right: 0px; }
-      .chuyen-nganh-wrap .col-chuyennganh-inner .xem-mau-bang > span {
+      .chuyen-nganh-wrap .col-dangky-inner .xem-mau-bang > span {
         right: 0;
         top: calc(50% - 2px);
         right: -10px;
         transform: rotate(-45deg); }
-      .chuyen-nganh-wrap .col-chuyennganh-inner .xem-mau-bang i {
+      .chuyen-nganh-wrap .col-dangky-inner .xem-mau-bang i {
         right: 3px;
         bottom: 8px; }
   .chuyen-nganh-wrap .col-content .col-content-inner {
@@ -840,7 +830,7 @@ a:focus, a:hover {
         margin-bottom: 15px; }
       .chuyen-nganh-wrap .col-content .col-content-inner .thong-tin-content .tbl-thongtin {
         display: block;
-        max-height: 400px;
+        max-height: 520px;
         overflow: hidden;
         overflow-y: auto;
         box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
