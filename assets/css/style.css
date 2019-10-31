@@ -4,7 +4,7 @@
 @media (min-width: 1200px) {
   .container {
     width: 1200px; } }
-.after-df, .bg-overlay, .data-wrap .col-thongke:before, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:before, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:after, .famous-people-wrap .img-bg-wrap:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:after, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line4 strong:after, .title-box-wrap .title-box:after, .title-box-wrap .title-box:before, .title-box-wrap .title-desc:before, .title-box-wrap .title-desc:after, .wcs-item .wcs-desc ul li .list-chance span:before, .wcs-item .wcs-desc ul li:before, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-name:after, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-desc:before, .ft-title:after {
+.after-df, .bg-overlay, .data-wrap .col-thongke:before, .famous-people-wrap .img-bg-wrap:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:after, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line4 strong:after, .title-box-wrap .title-box:after, .title-box-wrap .title-box:before, .title-box-wrap .title-desc:before, .title-box-wrap .title-desc:after, .wcs-item .wcs-desc ul li .list-chance span:before, .wcs-item .wcs-desc ul li:before, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-desc:before, .ft-title:after {
   content: "";
   display: block;
   position: absolute; }
@@ -14,7 +14,7 @@
   display: block;
   position: relative; }
 
-.round, .address-contact-wrap a i, .owl-carousel .owl-nav [class*=owl-], .data-item .data-item-inner, .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh > li > i {
+.round, .address-contact-wrap a i, .owl-carousel .owl-nav [class*=owl-], .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh > li > i {
   border-radius: 50%; }
 
 .color, .wcs-item .icon-box2 i.fa:before, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-career, .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh .lst-qtkd > li > i {
@@ -29,7 +29,7 @@
 .color-green {
   color: #0cb14b; }
 
-.white, .data-item .data-item-inner i, .data-item .data-item-inner .number, .data-item .data-item-inner p, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:after, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:after, .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh > li > i {
+.white, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:after, .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh > li > i {
   color: #fff; }
 
 .hvr-color:hover {
@@ -38,10 +38,10 @@
 .hvr-white:hover {
   color: #fff; }
 
-.bg-color, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong:after, .data-item .data-item-inner, .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-title, .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh > li > i, .chuyen-nganh-wrap .col-content .col-content-inner .chuyen-nganh-title {
+.bg-color, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong:after, .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-title, .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh > li > i, .chuyen-nganh-wrap .col-content .col-content-inner .chuyen-nganh-title {
   background-color: #0066b1; }
 
-.bg-color-orange, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong:after, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-name:after, .ft-title:after {
+.bg-color-orange, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong:after, .ft-title:after {
   background: #f36f21; }
 
 .bg-color-green, .banner-slider .banner-item .banner-info .slider-content-text .line4 strong:after {
@@ -96,7 +96,6 @@
 .title14,
 .title8,
 .title12,
-.data-item .data-item-inner p,
 .title16,
 .title18,
 .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh .lst-qtkd > li,
@@ -114,7 +113,7 @@
   font-size: 14px;
   line-height: normal; }
 
-.title12, .data-item .data-item-inner p {
+.title12 {
   font-size: 12px;
   line-height: normal; }
 
@@ -177,7 +176,7 @@
   font-size: 70px;
   line-height: normal; }
 
-.transition, .after-df, .bg-overlay, .data-wrap .col-thongke:before, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:before, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:after, .famous-people-wrap .img-bg-wrap:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:after, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line4 strong:after, .title-box-wrap .title-box:after, .title-box-wrap .title-box:before, .title-box-wrap .title-desc:before, .title-box-wrap .title-desc:after, .wcs-item .wcs-desc ul li .list-chance span:before, .wcs-item .wcs-desc ul li:before, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-name:after, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-desc:before, .ft-title:after, .after-df-rlt, a, .wcs-item .img-wrap img, .wcs-item .wcs-desc, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a img {
+.transition, .after-df, .bg-overlay, .data-wrap .col-thongke:before, .famous-people-wrap .img-bg-wrap:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:after, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong:after, .banner-slider .banner-item .banner-info .slider-content-text .line4 strong:after, .title-box-wrap .title-box:after, .title-box-wrap .title-box:before, .title-box-wrap .title-desc:before, .title-box-wrap .title-desc:after, .wcs-item .wcs-desc ul li .list-chance span:before, .wcs-item .wcs-desc ul li:before, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-desc:before, .ft-title:after, .after-df-rlt, a, .wcs-item .img-wrap img, .wcs-item .wcs-desc {
   transition: all 0.3s ease-out 0s;
   -webkit-transition: all 0.3s ease-out 0s; }
 
@@ -217,7 +216,7 @@
 .jtf-content-center, .famous-people-wrap .infor-famous .nav-tabs, .chuyen-nganh-wrap .col-chuyennganh-inner .chuyen-nganh-content .lst-chuyen-nganh > li > i {
   justify-content: center; }
 
-.bg-overlay, .data-wrap .col-thongke:before, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:before, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:after, .famous-people-wrap .img-bg-wrap:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:after {
+.bg-overlay, .data-wrap .col-thongke:before, .famous-people-wrap .img-bg-wrap:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:after {
   top: 0px;
   right: 0px;
   left: 0px;
@@ -226,10 +225,10 @@
 .no-margin {
   margin: 0px; }
 
-.pst-relative, .address-contact-wrap a i, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong, .banner-slider .banner-item .banner-info .slider-content-text .line4 strong, .wcs-item, .wcs-item .wcs-desc ul li, .wcs-item .wcs-desc ul li .list-chance span, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-name, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-desc, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a, .ft-title {
+.pst-relative, .address-contact-wrap a i, .banner-slider .banner-item .banner-info .slider-content-text .line2 strong, .banner-slider .banner-item .banner-info .slider-content-text .line3 strong, .banner-slider .banner-item .banner-info .slider-content-text .line4 strong, .wcs-item, .wcs-item .wcs-desc ul li, .wcs-item .wcs-desc ul li .list-chance span, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-name, .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-desc, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a, .ft-title {
   position: relative; }
 
-.pst-absolute, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:before {
+.pst-absolute {
   position: absolute; }
 
 .bg-parallax {
@@ -490,7 +489,7 @@ a:focus, a:hover {
     color: #f36f21;
     right: -30px; }
 
-.visible-hidden, .data-wrap .col-thongke:before, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:before, .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:after, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:before {
+.visible-hidden, .data-wrap .col-thongke:before, .thu-vien-youtube-slider .owl-stage-outer .owl-item .thu-vien-youtube-item a:before {
   visibility: hidden;
   opacity: 0; }
 
@@ -611,32 +610,27 @@ a:focus, a:hover {
   width: auto;
   margin: auto; }
 
-.form-tu-van .form-title {
-  margin-bottom: 30px; }
-.form-tu-van .textarea-wrap {
-  margin-bottom: 30px; }
-
 .sinhvien_slider {
   margin: 0px -15px; }
   .sinhvien_slider .owl-stage-outer {
     padding-top: 15px;
-    padding-bottom: 15px; }
+    padding-bottom: 45px; }
     .sinhvien_slider .owl-stage-outer .owl-item {
       padding: 0px 15px; }
       .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item {
         border: 1px solid #d2d2d2;
         padding: 15px;
-        box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
-        min-height: 575px; }
+        box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1); }
         .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .img-wrap {
-          margin-bottom: 15px; }
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          position: absolute;
+          right: 35px;
+          bottom: -25px;
+          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); }
         .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-name {
-          padding-bottom: 14px;
-          margin-bottom: 18px; }
-          .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-name:after {
-            width: 30px;
-            height: 3px;
-            bottom: 0px; }
+          padding-bottom: 14px; }
         .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-desc {
           text-indent: 25px; }
           .sinhvien_slider .owl-stage-outer .owl-item .sinhvien-item .sv-desc:before {
@@ -649,16 +643,6 @@ a:focus, a:hover {
     left: -30px; }
   .sinhvien_slider .owl-nav button.owl-next {
     right: -30px; }
-
-.data-item {
-  margin-bottom: 35px; }
-  .data-item .data-item-inner {
-    width: 215px;
-    height: 215px;
-    margin: auto;
-    padding-top: 45px; }
-    .data-item .data-item-inner i {
-      margin-bottom: 5px; }
 
 .data-wrap .title-box:before {
   background: url("../images/title-after-icon-bg-orange.jpg");
@@ -682,36 +666,6 @@ a:focus, a:hover {
   .data-wrap .col-thongke:hover:before {
     visibility: visible;
     opacity: 1; }
-
-.thu-vien-anh-slider .owl-item {
-  padding: 0px 7.5px; }
-  .thu-vien-anh-slider .owl-item .thu-vien-anh-item a {
-    display: block; }
-    .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:before {
-      background: rgba(0, 0, 0, 0.3);
-      z-index: 1; }
-    .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:after {
-      font-family: FontAwesome;
-      content: "\f00e";
-      font-size: 24px;
-      width: 25px;
-      height: 35px;
-      margin: auto;
-      z-index: 2;
-      transform: scale(0); }
-    .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:hover:before {
-      visibility: visible;
-      opacity: 1; }
-    .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:hover:after {
-      visibility: visible;
-      opacity: 1;
-      transform: scale(1); }
-    .thu-vien-anh-slider .owl-item .thu-vien-anh-item a:hover img {
-      transform: scale(1.05); }
-
-.thu-vien-anh-slider2-wrap {
-  margin: 0px -7.5px;
-  margin-top: 15px; }
 
 .famous-people-wrap .tabcontent {
   display: none;
@@ -967,21 +921,23 @@ a:focus, a:hover {
       .nguoinoitieng .img-noitieng .famous-img .instagram-text-follow i {
         opacity: 0;
         visibility: hidden; }
-  .nguoinoitieng .img-noitieng .famous-img:before {
-    background: rgba(255, 255, 255, 0.2);
-    opacity: 0;
-    z-index: 1;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    content: "";
-    transition: all 0.3s ease-out 0s;
-    -webkit-transition: all 0.3s ease-out 0s;
-    transform: scale(0);
-    -webkit-transform: scale(0); }
-  .nguoinoitieng .img-noitieng .famous-img:hover:before {
+  .nguoinoitieng .img-noitieng .famous-img a {
+    display: block; }
+    .nguoinoitieng .img-noitieng .famous-img a:before {
+      background: rgba(255, 255, 255, 0.2);
+      opacity: 0;
+      z-index: 1;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      content: "";
+      transition: all 0.3s ease-out 0s;
+      -webkit-transition: all 0.3s ease-out 0s;
+      transform: scale(0);
+      -webkit-transform: scale(0); }
+  .nguoinoitieng .img-noitieng .famous-img:hover a:before {
     opacity: 1;
     visibility: visible;
     transform: scale(1);

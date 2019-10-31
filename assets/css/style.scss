@@ -854,50 +854,29 @@ a:focus, a:hover {
   }
 }
 
-.form-tu-van-wrap{
-  //background: url(../images/bg-3.jpg);
-  //background-size: cover;
-  //background-position: center;
-  //background-attachment: fixed;
-  //padding-top: 50px;
-  //padding-bottom: 50px;
-}
-
-.form-tu-van{
-  .form-title{
-    margin-bottom: 30px;
-  }
-  .textarea-wrap{
-    margin-bottom: 30px;
-  }
-}
-
 .sinhvien_slider{
   margin: 0px -15px;
   .owl-stage-outer{
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 45px;
     .owl-item{
       padding: 0px 15px;
       .sinhvien-item{
         border: 1px solid #d2d2d2;
         padding: 15px;
         box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
-        min-height: 575px;
         .img-wrap{
-          margin-bottom: 15px;
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          position: absolute;
+          right: 35px;
+          bottom: -25px;
+          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
         }
         .sv-name{
           @extend .pst-relative;
           padding-bottom: 14px;
-          margin-bottom: 18px;
-          &:after{
-            @extend .after-df;
-            @extend .bg-color-orange;
-            width: 30px;
-            height: 3px;
-            bottom: 0px;
-          }
         }
         .sv-career{
           @extend .color;
@@ -928,32 +907,7 @@ a:focus, a:hover {
   }
 }
 
-.data-item {
-  margin-bottom: 35px;
-  .data-item-inner{
-    width: 215px;
-    height: 215px;
-    margin: auto;
-    padding-top: 45px;
-    @extend .round;
-    @extend .bg-color;
-    i{
-      @extend .white;
-      margin-bottom: 5px;
-    }
-    .number{
-      @extend .white;
-    }
-    p{
-      @extend .white;
-      @extend .title12;
-    }
-  }
-}
-
 .data-wrap{
-  //padding-top: 50px;
-  //padding-bottom: 20px;
   .title-box{
     &:before{
       background: url("../images/title-after-icon-bg-orange.jpg");
@@ -995,61 +949,6 @@ a:focus, a:hover {
       }
     }
   }
-}
-
-.thu-vien-anh-slider{
-  .owl-item{
-    padding: 0px 7.5px;
-    .thu-vien-anh-item{
-      a{
-        display: block;
-        @extend .pst-relative;
-        &:before{
-          @extend .pst-absolute;
-          @extend .bg-overlay;
-          @extend .visible-hidden;
-          background: rgba(0,0,0,0.3);
-          z-index: 1;
-        }
-        &:after{
-          @extend .after-df;
-          @extend .bg-overlay;
-          @extend .white;
-          font-family: FontAwesome;
-          content:"\f00e";
-          font-size: 24px;
-          width: 25px;
-          height: 35px;
-          margin: auto;
-          z-index: 2;
-          @extend .visible-hidden;
-          transform: scale(0);
-        }
-        img{
-          @extend .transition;
-        }
-        &:hover{
-          &:before{
-            visibility: visible;
-            opacity: 1;
-          }
-          &:after{
-            visibility: visible;
-            opacity: 1;
-            transform: scale(1);
-          }
-          img{
-            transform: scale(1.05);
-          }
-        }
-      }
-    }
-  }
-}
-
-.thu-vien-anh-slider2-wrap{
-  margin: 0px -7.5px;
-  margin-top: 15px;
 }
 
 .famous-people-wrap{
@@ -1441,27 +1340,34 @@ a:focus, a:hover {
         }
       }
     }
-    .famous-img:before{
-      background: rgba(255,255,255,0.2);
-      opacity: 0;
-      z-index: 1;
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      content: "";
-      transition: all 0.3s ease-out 0s;
-      -webkit-transition: all 0.3s ease-out 0s;
-      transform: scale(0);
-      -webkit-transform: scale(0);
+    .famous-img{
+      a{
+        display: block;
+        &:before{
+          background: rgba(255,255,255,0.2);
+          opacity: 0;
+          z-index: 1;
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          content: "";
+          transition: all 0.3s ease-out 0s;
+          -webkit-transition: all 0.3s ease-out 0s;
+          transform: scale(0);
+          -webkit-transform: scale(0);
+        }
+      }
     }
     .famous-img:hover{
-      &:before{
-        opacity: 1;
-        visibility: visible;
-        transform: scale(1);
-        -webkit-transform: scale(1);
+      a{
+        &:before{
+          opacity: 1;
+          visibility: visible;
+          transform: scale(1);
+          -webkit-transform: scale(1);
+        }
       }
       i{
         opacity: 1;
