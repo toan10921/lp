@@ -103,6 +103,25 @@ img{
     bottom:0px;
   }
 }
+.transition {
+  transition: all 0.3s ease-out 0s;
+  -webkit-transition: all 0.3s ease-out 0s;
+}
+.pst-absolute {
+  position: absolute;
+}
+.radius15{
+  border-radius: 15px;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.pst-relative {
+  position: relative;
+}
+.font-500 {
+  font-weight: 500;
+}
 
 .form-dangky{
   input,select{
@@ -331,4 +350,264 @@ img{
 .logo-ft-wrap{
   background: rgba(255,255,255,0.3);
   padding: 10px;
+}
+
+.chuyen-nganh-wrap{
+  padding-top: 50px;
+  padding-bottom: 0px;
+  .title-box-wrap{
+    .title-box{
+      margin-bottom: 45px;
+    }
+  }
+  .chuyen-nganh-item{
+    margin-bottom: 30px;
+    .img-wrap{
+      display: block;
+    }
+    .text-wrap{
+      border: 1px solid $grayd2;
+      border-top: none;
+      padding: 15px 30px 25px 30px;
+      h3{
+        margin-bottom: 10px;
+      }
+      .desc{
+
+      }
+      .readmore{
+        position: relative;
+        &:after{
+          @extend .after-df;
+          @extend .bg-color;
+          @extend .transition;
+          width: 100%;
+          height: 1px;
+          bottom: 0px;
+        }
+        &:hover{
+          &:after{
+            background: $color-orange;
+          }
+        }
+      }
+    }
+  }
+  .col-dangky-inner{
+    max-width: 280px;
+    .form-dangky{
+      margin-left: 0px;
+      margin-top: 0px;
+      padding-top: 25px;
+      margin-bottom: 30px;
+    }
+    .bang-greenwich{
+      padding: 25px 15px;
+      @extend .radius5;
+      &:before{
+        @extend .after-df;
+        width: 30px;
+        height: 30px;
+        background: $black333;
+        z-index: -1;
+        bottom: -20px;
+        right: 70px;
+      }
+    }
+    .xem-mau-bang{
+      position: relative;
+      display: block;
+      width: 100%;
+      height: 100px;
+      margin-top: -80px;
+      border-radius: 0px 0px 5px 0px;
+      border-radius: 0px 0px 5px 0px;
+      overflow: hidden;
+      &:before{
+        @extend .after-df;
+        width: 0;
+        height: 0;
+        border-bottom: 100px solid $color;
+        border-left: 100px solid transparent;
+        right: 0px;
+      }
+      > span{
+        @extend .pst-absolute;
+        right: 0;
+        top: calc(50% - 2px);
+        right: -10px;
+        transform: rotate(-45deg);
+      }
+      i{
+        @extend .pst-absolute;
+        right: 3px;
+        bottom: 8px;
+      }
+    }
+  }
+  .form-dangky{
+
+  }
+  .col-content{
+    .col-content-inner{
+      margin-left: -55px;
+      .chuyen-nganh-title{
+        @extend .bg-color;
+        height: 50px;
+        line-height: 50px;
+        padding: 0px 15px;
+        border-radius: 5px 5px 0px 0px;
+      }
+      .thong-tin-content{
+        padding: 30px 15px;
+        border: 1px solid $grayd2;
+        border-top: none;
+        border-radius: 0px 0px 5px 5px;
+        .han-nop{
+          margin-bottom: 15px;
+        }
+        .tbl-thongtin{
+          display: block;
+          max-height: 520px;
+          overflow: hidden;
+          overflow-y: auto;
+          box-shadow: 0px 1px 2px rgba(0,0,0,0.1);
+          /* width */
+          &::-webkit-scrollbar {
+            width: 8px;
+            border-radius: 5px;
+          }
+          &::-webkit-scrollbar-track {
+            background: #fafafa;
+            border-radius: 5px;
+          }
+          &::-webkit-scrollbar-thumb {
+            background: $color;
+            border-radius: 5px;
+          }
+          &::-webkit-scrollbar-thumb:hover {
+            background: rgba(0, 102, 177, 0.8);
+          }
+          .mau-dk-xettuyen{
+            padding: 5px 15px;
+            margin-left: 5px;
+            border-radius: 30px;
+          }
+          tr{
+            td{
+              border: 1px solid $grayd2;
+              border-collapse: collapse;
+              .hocbong-desc{
+                h5{
+                  @extend .title18;
+                  //@extend .no-margin;
+                  margin-bottom: 15px;
+                  margin-top: 10px;
+                  i{
+                    margin-right: 5px;
+                  }
+                }
+                ul{
+                  padding-left: 14px !important;
+                }
+              }
+            }
+            td:first-child{
+              min-width: 140px;
+              padding-left: 15px;
+              @extend .font-bold;
+              text-transform: uppercase;
+            }
+            td:last-child{
+              padding-top: 15px;
+              padding-left: 15px;
+              padding-right: 15px;
+              ul{
+                list-style: none;
+                padding-left: 0px;
+                li{
+                  position: relative;
+                  margin-bottom: 10px;
+                  &:before{
+                    @extend .after-df;
+                    font-family: FontAwesome;
+                    content:"\f0da";
+                    @extend .color-orange;
+                    left: 0px;
+                  }
+                  padding-left: 10px;
+                  padding-left: 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .btn-wrap{
+    padding-top: 30px;
+  }
+}
+
+.fancybox-chuyen-nganh{
+  max-width: 800px;
+  padding: 15px 15px;
+  @extend .radius15;
+  .first-block{
+    .first-block-inner{
+      border-radius: 10px;
+      @extend .overflow-hidden;
+      .content-text{
+        padding: 0px 15px 15px 15px;
+        > h4{
+          padding-bottom: 15px;
+          margin-bottom: 15px;
+          margin-top: 15px;
+          @extend .pst-relative;
+          &:after{
+            @extend .after-df;
+            @extend .bg-color;
+            width: 30px;
+            height: 3px;
+            bottom: 0px;
+          }
+        }
+        .job-target{
+          @extend .font-500;
+        }
+      }
+    }
+  }
+  .second-block{
+    .second-block-inner{
+      .job-target{
+        border-radius: 10px;
+        border: 1px solid $grayd2;
+        padding: 15px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        li{
+          @extend .font-500;
+          @extend .pst-relative;
+          margin-bottom: 10px;
+          padding-left: 10px;
+          &:before{
+            @extend .after-df;
+            font-family: FontAwesome;
+            content: "\f0da";
+            @extend .color;
+            left: 0px;
+          }
+        }
+      }
+      .btn-wrap{
+        a{
+          &:focus{
+            color: $white;
+          }
+        }
+      }
+    }
+  }
 }
