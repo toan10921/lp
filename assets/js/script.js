@@ -17,6 +17,10 @@ $(document).ready(function () {
         });
     }
 
+    $('.dang_ky_btn').on("click",function(){
+        $.fancybox.close();
+    });
+
 });
 
 $(window).on("load",function () {

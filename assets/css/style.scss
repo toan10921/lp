@@ -3,6 +3,7 @@ $color-orange: #f36f21;
 $color-green: #0cb14b;
 $white: #fff;
 $grayd2: #d2d2d2;
+$black333: #333;
 
 .container {
   max-width: 1050px;
@@ -34,6 +35,10 @@ $grayd2: #d2d2d2;
 
 .color {
   color: $color;
+}
+
+.black333{
+  color: $black333;
 }
 
 .grayd2{
@@ -337,6 +342,7 @@ textarea {
 }
 select{
   border: 1px solid #d2d2d2;
+  background: $white;
   height: 40px;
   line-height: 38px;
   font-size: 16px;
@@ -699,6 +705,24 @@ a:focus, a:hover {
   }
 }
 
+/* modal wcs */
+#myModal1,#myModal2,#myModal3,#myModal4,#myModal5,#myModal6,#myModal7,#myModal{
+  .modal-dialog{
+    max-width: 450px;
+    button.close{
+      margin-right: 10px;
+      margin-top: 10px;
+      width: 20px;
+      height: 20px;
+      @extend .bg-color;
+      @extend .bg-color;
+      @extend .white;
+      @extend .round;
+      @extend .title12;
+    }
+  }
+}
+
 .wcs-wrap {
   margin-left: -7.5px;
   margin-right: -7.5px;
@@ -723,19 +747,15 @@ a:focus, a:hover {
     text-align: justify;
   }
   .wcs-desc {
-    /*@extend .pst-absolute;*/
     @extend .transition;
-    /*right: calc(-100% - 15px);
-    left: calc(100% + 15px);*/
     top: 0px;
     bottom: 0px;
     width: 100%;
     height: 100%;
     background: #fff;
-    /*visibility: hidden;
-    opacity: 0;*/
     z-index: 1;
-    padding: 15px;
+    padding: 20px 15px 0px 15px;
+    padding: 20px 15px 0px 15px;
     border-radius: 5px;
     border: 1px solid #0066b1;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
@@ -1132,7 +1152,7 @@ a:focus, a:hover {
 }
 
 .cau-chuyen-sv-wrap{
-  padding-top: 50px;
+  padding-top: 0px;
   padding-bottom: 35px;
 }
 
@@ -1184,6 +1204,7 @@ a:focus, a:hover {
     .chuyen-nganh-content{
       padding-top: 20px;
       padding-bottom: 20px;
+      margin-bottom: 30px;
       border-radius: 0px 0px 5px 5px;
       border: 1px solid $grayd2;
       border-top: none;
@@ -1205,7 +1226,7 @@ a:focus, a:hover {
             width: 40px;
             height: 40px;
           }
-          a{
+          > a{
             padding-left: 10px;
             width: calc(100% - 41px);
           }
@@ -1219,8 +1240,9 @@ a:focus, a:hover {
           > li{
             margin-bottom: 10px;
             cursor: pointer;
+            @extend .transition;
             @extend .title18;
-            > i{
+            i{
               @extend .color;
               margin-right: 5px;
               margin-right: 5px;
@@ -1228,8 +1250,45 @@ a:focus, a:hover {
             &:last-child{
               margin-bottom: 0px;
             }
+            &:hover{
+              margin-left: 10px;
+            }
           }
         }
+      }
+    }
+    .bang-greenwich{
+      padding: 25px 15px;
+      @extend .radius5;
+    }
+    .xem-mau-bang{
+      @extend .pst-relative;
+      display: block;
+      width: 100%;
+      height: 100px;
+      margin-top: -75px;
+      border-radius: 0px 0px 5px 0px;
+      border-radius: 0px 0px 5px 0px;
+      overflow: hidden;
+      &:before{
+        @extend .after-df;
+        width: 0;
+        height: 0;
+        border-bottom: 100px solid $color;
+        border-left: 100px solid transparent;
+        right: 0px;
+      }
+      > span{
+        @extend .pst-absolute;
+        right: 0;
+        top: calc(50% - 2px);
+        right: -10px;
+        transform: rotate(-45deg);
+      }
+      i{
+        @extend .pst-absolute;
+        right: 3px;
+        bottom: 8px;
       }
     }
   }
@@ -1262,22 +1321,21 @@ a:focus, a:hover {
             width: 8px;
             border-radius: 5px;
           }
-
-          /* Track */
           &::-webkit-scrollbar-track {
             background: #fafafa;
             border-radius: 5px;
           }
-
-          /* Handle */
           &::-webkit-scrollbar-thumb {
             background: $color;
             border-radius: 5px;
           }
-
-          /* Handle on hover */
           &::-webkit-scrollbar-thumb:hover {
             background: rgba(0, 102, 177, 0.8);
+          }
+          .mau-dk-xettuyen{
+            padding: 5px 15px;
+            margin-left: 5px;
+            border-radius: 30px;
           }
           tr{
             td{
@@ -1333,6 +1391,70 @@ a:focus, a:hover {
   }
   .btn-wrap{
     padding-top: 30px;
+  }
+}
+
+
+.fancybox-chuyen-nganh{
+  max-width: 800px;
+  padding: 15px 15px;
+  @extend .radius15;
+  .first-block{
+    .first-block-inner{
+      border-radius: 10px;
+      @extend .overflow-hidden;
+      .content-text{
+        padding: 0px 15px 15px 15px;
+        > h4{
+          padding-bottom: 15px;
+          margin-bottom: 15px;
+          margin-top: 15px;
+          @extend .pst-relative;
+          &:after{
+            @extend .after-df;
+            @extend .bg-color;
+            width: 30px;
+            height: 3px;
+            bottom: 0px;
+          }
+        }
+        .job-target{
+          @extend .font-500;
+        }
+      }
+    }
+  }
+  .second-block{
+    .second-block-inner{
+      margin-left: -15px;
+      .job-target{
+        border-radius: 10px;
+        border: 1px solid $grayd2;
+        padding: 15px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        li{
+          @extend .font-500;
+          @extend .pst-relative;
+          margin-bottom: 10px;
+          padding-left: 10px;
+          &:before{
+            @extend .after-df;
+            font-family: FontAwesome;
+            content: "\f0da";
+            @extend .color;
+            left: 0px;
+          }
+        }
+      }
+      .btn-wrap{
+        a{
+          &:focus{
+            color: $white;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -1458,4 +1580,8 @@ a:focus, a:hover {
       }
     }
   }
+}
+
+.row-banner{
+  background-size: cover !important;
 }
