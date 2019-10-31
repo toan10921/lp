@@ -230,46 +230,40 @@ img{
   }
 }
 .sinhvien_slider-outer{
-  margin: 0px -15px;
-  .owl-stage-outer{
-    padding-top: 15px;
-    padding-bottom: 45px;
-    .owl-item{
-      padding: 0px 15px;
-      .sinhvien-item{
-        border: 1px solid #d2d2d2;
-        padding: 15px;
-        box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
-        .img-wrap{
-          width: 80px;
-          height: 80px;
-          border-radius: 50%;
-          overflow: hidden;
-          position: absolute;
-          right: 35px;
-          bottom: -25px;
-          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-        }
-        .sv-name{
-          position: relative;
-          padding-bottom: 14px;
-        }
-        .sv-career{
-          @extend .color;
-        }
-        .sv-desc{
-          text-indent: 25px;
-          position: relative;
-          &:before{
-            @extend .after-df;
-            font-family: FontAwesome;
-            content:"\f064";
-            text-indent: 0px;
-            font-size: 16px;
-            top: -1px;
-            @extend .color-orange;
-          }
-        }
+  .sinhvien-item{
+    position: relative;
+    margin-bottom: 50px;
+    border: 1px solid #d2d2d2;
+    padding: 15px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+    .img-wrap{
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      overflow: hidden;
+      position: absolute;
+      right: 35px;
+      bottom: -25px;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    }
+    .sv-name{
+      position: relative;
+      padding-bottom: 14px;
+    }
+    .sv-career{
+      @extend .color;
+    }
+    .sv-desc{
+      text-indent: 25px;
+      position: relative;
+      &:before{
+        @extend .after-df;
+        font-family: FontAwesome;
+        content:"\f064";
+        text-indent: 0px;
+        font-size: 16px;
+        top: -1px;
+        @extend .color-orange;
       }
     }
   }
@@ -552,7 +546,7 @@ img{
 
 .fancybox-chuyen-nganh{
   max-width: 800px;
-  padding: 15px 15px;
+  padding: 15px 15px !important;
   @extend .radius15;
   .first-block{
     .first-block-inner{
