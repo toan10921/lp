@@ -1082,4 +1082,7 @@ a:focus, a:hover {
 .row-banner {
   background-size: cover !important; }
 
+.cs-col-1 > div, .cs-col-2 > div {
+  margin-right: -25px; }
+
 /*# sourceMappingURL=style.css.map */

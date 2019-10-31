@@ -5,6 +5,11 @@
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <!--<link rel=”canonical” href=”http://localhost/gw/lp/index.html” />-->
     <link rel="canonical" href="http://web888.vn/demo/greenwich/index.html" />
+    <link href="assets/css/lib/bootstrap.min.css" rel="stylesheet" media="screen,handheld">
+    <link href="assets/css/lib/bootstrap-theme.min.css" rel="stylesheet" media="screen,handheld">
+    <link rel="stylesheet" href="assets/css/lib/font-awesome.min.css">
+
+    <link href="assets/css/mobile.css" rel="stylesheet" media="screen,handheld">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <script type="application/ld+json">
       {
@@ -21,6 +26,115 @@
     <title>FPT GREENWICH TUYỂN SINH ĐẠI HỌC 2019</title>
 </head>
 <body>
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-8">
+                    <img class="logo" src="assets/images/logo-greenwich.png" alt="Logo Fpt" id="logofpt">
+                </div>
+                <div class="col-xs-4">
+                    <div class="menu">
+                        <a href="#" class="pull-right toggle-mobile-btn">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="banner">
+            <img src="assets/images/banner/banner1-mobile.jpg" />
+        </div>
+        <div class="container">
+            <div class="row1">
+                <h1 class="title-box">VÌ SAO NÊN LỰA CHỌN ĐẠI HỌC GREENWICH VIỆT NAM</h1>
+                <div class="text-center wcs-desc">
+                    <p class="">Học tại Việt Nam - Nhận bằng Anh Quốc</p>
+                    <p class="">Được bộ Giáo dục & Đào tạo tại Việt Nam công nhận</p>
+                    <p class="">Đào tạo theo nhu cầu thực tế của doanh nghiệp với chương trình thực tập đặc biệt tại Doanh Nghiệp (OJT)</p>
+                    <p class="">Cơ hội việc làm mở rộng sau tốt nghiệp</p>
+                    <p class="">Môi trường Quốc tế- học cùng giảng viên và sinh viên Quốc tế</p>
+                    <p class="">Cơ hội học tập tại nước ngoài</p>
+                    <p class="">Hoàn thiện bản thân với chuỗi chương trình phát triển kỹ năng (PDP)</p>
+                    <p class="">Chi phí bằng 1/10 so với đi du học tại Anh</p>
+                </div>
+            </div>
+        </div>
 
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="form-dangky">
+                        <div class="row-form">
+                            <div class="dong-form text-center">
+                                <h3 class="title-box">ĐĂNG KÝ XÉT TUYỂN</h3>
+                            </div>
+                        </div>
+                        <div class="row-form">
+                            <div class="dong-form">
+                                <input type="text" placeholder="Họ và tên" class="kichthuoc" id="name">
+                            </div>
+                        </div>
+                        <div class="row-form">
+                            <div class="dong-form">
+                                <input type="text" placeholder="Trường THPT của bạn" class="kichthuoc" id="truong">
+                            </div>
+                        </div>
+                        <div class="row-form">
+                            <div class="dong-form">
+                                <input type="number" placeholder="Điện thoại" class="kichthuoc" id="dienthoai">
+                            </div>
+                        </div>
+                        <div class="row-form">
+                            <div class="dong-form">
+                                <input type="text" placeholder="Địa chỉ" class="kichthuoc" id="diachi">
+                            </div>
+                        </div>
+                        <div class="row-form">
+                            <div class="dong-form">
+                                <select name="tp" id="noidangky" class="kichthuoc">
+                                    <option disabled="disabled" selected="selected">Nơi đăng ký tuyển sinh</option>
+                                    <option value="Hà Nội">Hà Nội</option>
+                                    <option value="Tp.Hồ Chí Minh">Tp.Hồ Chí Minh</option>
+                                    <option value="Đà Nẵng">Đà Nẵng</option>
+                                    <option value="Cần Thơ">Cần Thơ</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row-form">
+                            <div class="dong-form">
+                                <select name="tp" id="chuyennganh" class="kichthuoc">
+                                    <option disabled="disabled" selected="selected">Chuyên ngành</option>
+                                    <option value="Công nghệ thông tin">Công nghệ thông tin</option>
+                                    <option value="Thiết kế đồ họa">Thiết kế đồ họa</option>
+                                    <option value="Quản trị kinh doanh">Quản trị kinh doanh</option>
+                                    <option value="Quản trị marketing">Quản trị marketing</option>
+                                    <option value="Quản trị sự kiện">Quản trị sự kiện</option>
+                                    <option value="Quản trị truyền thông">Quản trị truyền thông</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row-form">
+                            <div class="dong-form">
+                                <select name="tp" id="phuongtienbietden" class="kichthuoc">
+                                    <option disabled="disabled" selected="selected">Bạn biết thông tin qua</option>
+                                    <option value="Facebook">Facebook</option>
+                                    <option value="Tìm kiếm Google">Tìm kiếm Google</option>
+                                    <option value="Website Lop12.edu.vn">Website Lop12.edu.vn</option>
+                                    <option value="Nguồn khác">Nguồn khác</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row-form">
+                            <div class="dong-form  text-center text-uppercase">
+                                <button  type="submit" class="btn text-uppercase radius30 fontosw dangky kichthuoc" value="Đăng ký"><span>Đăng ký</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
