@@ -32,6 +32,31 @@
                 $.fancybox.close();
             });
         });
+        $(document).ready(function (){
+            $(".btn-wrap").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#box_dang_ky").offset().top
+                }, 2000);
+            });
+        });
+        function rep_menu(){
+            $('.toggle-mobile-btn').on('click',function(event){
+                event.preventDefault();
+                $(this).parents('.main-nav').toggleClass('active');
+            });
+            $('.main-nav').on('click','.btn-toggle-mobile-menu',function(event){
+                $(this).toggleClass('active');
+                $(this).prev().stop(true,false).slideToggle('fast');
+            });
+            $('.main-nav').on('click','.menu-item > a[href="#"]',function(event){
+                event.preventDefault();
+                $(this).toggleClass('active');
+                $(this).next().stop(true,false).slideToggle('fast');
+            });
+        }
+        $(document).ready(function(){
+            rep_menu();
+        });
     </script>
 </head>
 <body>
@@ -42,7 +67,14 @@
                     <img class="logo" src="assets/images/logo-greenwich.png" alt="Logo Fpt" id="logofpt">
                 </div>
                 <div class="col-xs-4">
-                    <div class="menu">
+                    <div class="menu main-nav">
+                        <ul class="list-none">
+                            <li><a href="http://greenwich.edu.vn/">Trang chủ</a></li>
+                            <li><a href="#box_gioi_thieu">Giới thiệu</a></li>
+                            <li><a href="#">Chuyên ngành</a></li>
+                            <li><a href="#">Giới thiệu</a></li>
+                            <li><a href="#">Truyền thông</a></li>
+                        </ul>
                         <a href="#" class="pull-right toggle-mobile-btn">
                             <i class="fa fa-bars"></i>
                         </a>
