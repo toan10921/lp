@@ -327,6 +327,7 @@ $black333: #333;
 
 body {
   font-family: Roboto, Arial, sans-serif;
+  //padding-right: 0px !important;
 }
 
 input[type=password],
@@ -1472,4 +1473,21 @@ a:focus, a:hover {
 
 .row-banner{
   background-size: cover !important;
+}
+
+
+.modal-open{
+  overflow: unset;
+}
+.owl-dots{
+  height: 20px;
+  .owl-dot{
+    outline: none !important;
+    &:focus,&.active{
+      //zoom: 1.2;
+    }
+    &.active span,&:hover span{
+      background: #0066b1 !important;
+    }
+  }
 }

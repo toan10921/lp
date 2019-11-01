@@ -1007,4 +1007,14 @@ a:focus, a:hover {
 .row-banner {
   background-size: cover !important; }
 
+.modal-open {
+  overflow: unset; }
+
+.owl-dots {
+  height: 20px; }
+  .owl-dots .owl-dot {
+    outline: none !important; }
+    .owl-dots .owl-dot.active span, .owl-dots .owl-dot:hover span {
+      background: #0066b1 !important; }
+
 /*# sourceMappingURL=style.css.map */

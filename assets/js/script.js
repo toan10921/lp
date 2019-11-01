@@ -30,15 +30,25 @@ $(document).ready(function () {
             });
         });
     }
-    if($(window).width > 767){
-        $('.dang_ky_btn').on("click",function(){
-            $.fancybox.close();
-        });
-    }else{
-        $('.dang_ky_btn').on("click",function(){
-            $.fancybox.close();
-        });
-    }
+    $('.dang_ky_btn').on("click",function(){
+        $.fancybox.close();
+    });
+    $('.famous-img > a').on('click',function(event){
+        event.preventDefault();
+        var gallerys = $(this).attr('data-gallery');
+        var gallerys_array = gallerys.split(',');
+        var data = [];
+        if(gallerys != ''){
+            for (var i = 0; i < gallerys_array.length; i++) {
+                if(gallerys_array[i] != ''){
+                    data[i] = {};
+                    data[i].src = gallerys_array[i];
+                }
+            };
+        }
+        console.log(data);
+        $.fancybox.open(data);
+    })
 });
 
 $(window).on("load",function () {
